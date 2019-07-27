@@ -1,0 +1,96 @@
+body {
+  display: block;
+}
+
+#logo, #name, .navbar {
+  display: inline-flex;
+}
+
+#logo {
+  margin: 24px;
+}
+
+#name {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 56px;
+}
+
+#name a:link, a:visited {
+  background-color: white;
+  color: #333333;
+  text-decoration: none;
+}
+
+#name a:hover {
+  color: #b8e2f2;
+}
+
+.navbar {
+  margin-left: 500px;
+  margin-top: 32px;
+}
+
+.navbar a {
+  color: #333333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+.navbar a:hover {
+  color: #979797;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+div#bio {
+  display: flex;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+div#bio p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-right: 56px;
+  line-height: 1.5;
+}
+
+div#bio a {
+  color: blue;
+}
+
+div#bio img {
+  transform: rotate(90deg);
+  margin: 24px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.bottomnav {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.bottomnav a {
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+.bottomnav a:hover {
+  opacity: 0.5;
+}
+
+.sig {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-bottom: 64px;
+}
