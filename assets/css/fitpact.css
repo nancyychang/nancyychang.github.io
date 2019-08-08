@@ -2,6 +2,17 @@ body {
   display: block;
 }
 
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 #logo, #name, .navbar {
   display: inline-flex;
 }
@@ -28,8 +39,9 @@ body {
 }
 
 .navbar {
-  margin-left: 500px;
   margin-top: 32px;
+  margin-right: 32px;
+  float: right;
 }
 
 .navbar a {
@@ -94,6 +106,60 @@ body {
   margin-top: 64px;
   line-height: 1.5;
   font-size: 18px;
+}
+
+#stat {
+  text-align: center;
+}
+
+#stat img {
+  display: inline-block;
+}
+
+.persona, #userflow, #wireflow, #findings {
+  text-align: center;
+}
+
+.persona img, #userflow img, #wireflow img, #findings img {
+  display: inline-block;
+}
+
+#findings img {
+  margin-top: 32px;
+}
+
+.screen, .sketch, .lofi {
+  display: inline;
+}
+
+.prototype-screens, .sketches, .lofi-screens {
+  text-align: center;
+}
+
+.row {
+  display: inline-block;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #b8e2f2; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  margin-bottom: 104px;
+  margin-right: 128px;
+}
+
+#myBtn:hover {
+  background-color: #EF434D;
 }
 
 .bottomnav {

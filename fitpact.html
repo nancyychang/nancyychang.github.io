@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/fitpact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
@@ -33,7 +35,7 @@
     </div>
 
     <div id="banner">
-      <img src="assets/img/fitpact.png" height="400" width="1000">
+      <img src="assets/img/fitpact_casestudy_banner.png" width="900">
     </div>
 
     <div id="overview">
@@ -48,8 +50,9 @@
         <li><a href="#wireframe">Wireframing</a></li>
         <li><a href="#usertest">User Testing</a></li>
         <li><a href="#prototype">Prototyping</a></li>
-        <li><a href="#iterate">Iterate</a></li>
-        <li><a href="#nextsteps">Next Steps</a></li>
+        <li><a href="#iterate">Iterate & Next Steps</a></li>
+        <!-- <li><a href="#nextsteps">Next Steps</a></li> -->
+        <li><a href="#finalwords">Final Words</a></li>
       </ul>
     </div>
 
@@ -65,8 +68,11 @@
           <br>
           And how many times did you see those same people genuinely follow through with their promises to themselves?<br>
           <br>
-          After sending out a screener survey to gauge how people feel about their level of fitness, I found that many people who did not have a consistent exercise routine were not satisfied with their current level of fitness. The main thing that motivates people to exercise is “seeing results” with “competition” and “rewards” as close seconds.<br>
+          After sending out a screener survey to gauge how people feel about their level of fitness, I found that of the people who did not have a consistent exercise routine, 80% of them were not satisfied with their current level of fitness. The main thing that motivates people to exercise is “seeing results” with “competition” and “rewards” as close seconds.<br>
           <br>
+          <div id="stat">
+            <img src="assets/img/fitpact_introstat.png" height="500">
+          </div>
           While I do agree that seeing results is the main thing that motivates me to exercise more, it took me over a year of consistently going to the gym before I saw any significant improvements to how fit I looked. Having a friend that went with me and kept me accountable made working out that much easier and enjoyable.<br>
           <br>
           A year is a long time to wait before seeing any results. <a href="https://www.forbes.com/sites/ashiraprossack1/2018/12/31/goals-not-resolutions/#83d687e3879a" target="_blank">Many people give up on their New Year’s resolutions after only a month!</a> And what else is supposed to keep people motivated before they start seeing results?<br>
@@ -102,38 +108,306 @@
       <a name="research"></a>
       <div id="research">
         <h1>RESEARCH: UNDERSTANDING THE USER</h1>
+        <p>
+          After conducting some secondary research, I found that the problem a lot of people have is that they tend to make long-term big picture resolutions rather than actionable goals. While it’s good to know what you want as an end result, if you don’t see immediate results, it’s very easy to lose motivation. According to an article I read, more than 75% of people give up on their New Year’s resolutions within the first month!
+          <br>
+          <br>
+          I also sent out a screener survey to determine what motivates people to exercise. “Seeing results” was stated as the main motivator with “competition” and “rewards” as close seconds. However, because seeing results takes time and consistent dedication, we run into the problem found from my secondary research where people lose motivation because they don’t see immediate results.
+          <br>
+          <br>
+          So, I decided to focus on “competition” and “rewards” as the main motivators when brainstorming solutions to the problem.
+          <br>
+          <br>
+          To determine possible user types, I conducted some interviews and organized my interview notes into affinity and empathy maps and then into personas.
+          <br>
+          <br>
+          The affinity map was organized into 7 different clusters: excuses, motivations, counting calories, schedule/routine, social/competition, time, and types of exercise.
+          <br>
+          <br>
+          [EMPATHY MAP] The first user type is someone who rarely to never exercises. This user knows the benefits of exercise but somehow always comes up with an excuse not to. The barrier to entry seems to be that exercising looks difficult and intimidating, and when this user exerts more energy than usual, they notice physical pain or discomfort most likely due to infrequent exercise. Maybe having a companion to exercise with would make exercising less intimidating and more enjoyable.
+          <br>
+          <br>
+          <div class="persona">
+            <img src="assets/img/fitpact_persona1.png" height="500">
+          </div>
+          From this first user type, I created a persona I called “The Couch Potato”. “The Couch Potato” is lazy, evasive, and unmotivated, and generally prioritizes convenience, comfort, and enjoyment.
+          <br>
+          <br>
+          [EMPATHY MAP] The second user type occasionally exercises. Without a set schedule, this user only exercises whenever it is convenient. Because they have a lot of other things going on in their life, it would help if someone could help them set a schedule and send reminders. But once a goal is set, they will most likely meet it, and it helps when there are visual signs of progress.
+          <br>
+          <br>
+          <div class="persona">
+            <img src="assets/img/fitpact_persona2.png" height="500">
+          </div>
+          I call this persona “The Workaholic”. They are goal-oriented, busy, and reward-driven and prioritize convenience, time, and enjoyment.
+          <br>
+          <br>
+          [EMPATHY MAP] The third user type is someone who already regularly exercises. This user already has a consistent routine and is constantly comparing with themselves and others. This user has been consistently exercising for a while and has already achieved the reward of seeing results in their physical appearance and level of fitness and is motivated to do even better, for example, faster mile time, lift heavier weights, become more flexible, etc.
+          <br>
+          <br>
+          <div class="persona">
+            <img src="assets/img/fitpact_persona3.png" height="500">
+          </div>
+          This persona is called “The Fitness Buff”. They are disciplined, results-driven, and hardworking, and are mainly motivated by bettering their physical appearance and health as well as competition.
+        </p>
       </div>
 
       <a name="infoarch"></a>
       <div id="infoarch">
         <h1>INFORMATION ARCHITECTURE</h1>
+        <h3>Ideation & Early Sketches</h3>
+        <p>After creating the three personas, I started brainstorming and sketching with these features in mind: set goal (to make becoming healthier more actionable), create pact (to address user’s desire to exercise with a friend and to create some friendly competition), rewards (w/ fitness points), track progress, exercises database (by providing tutorials on different exercises sorted by muscle groups and type in order to make it less intimidating).
+          <br>
+          <br>
+          <div class="sketches">
+            <div class="row">
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch1.png" width="250">
+              </div>
+
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch2.png" width="250">
+              </div>
+
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch3.png" width="250">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch4.png" width="250">
+              </div>
+
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch5.png" width="250">
+              </div>
+
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch6.png" width="250">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="sketch">
+                <img src="assets/img/fitpact_sketch7.png" width="250">
+              </div>
+            </div>
+          </div>
+          The feedback I got for these initial designs were that there are too many features, which makes it feel very cluttered, which in turn makes it seem complicated and difficult to use causing a barrier to entry.
+          <br>
+          While the features included in my initial designs tried to address all the wants and needs of all three personas and encompassed everything I ever wanted in a fitness app, I had to remind myself that I am designing an intuitive solution for my target audience and not for myself.
+          <br>
+          <br>
+          So I reworked the app so that it was simple and straightforward. It focused on one main feature which was creating weekly pacts with friends.
+        </p>
+        <h3>User Flow: Create Pact Red Route</h3>
+        <p>
+          Since creating and participating in a pact was now the main feature, I created a user flow that mapped out the path a user would follow in order to complete this task.
+          <br>
+          Even though the app now only focused on pacts, it still targeted three of the original clusters from the affinity map: social/competition, schedule/routine, and motivations.
+          <div id="userflow">
+            <img src="assets/img/fitpact_userflow.png" width="600">
+          </div>
+        </p>
+        <h3>Wireflow</h3>
+        <div id="wireflow">
+          <img src="assets/img/fitpact_wireflow.png" width="900">
+        </div>
       </div>
 
       <a name="wireframe"></a>
       <div id="wireframe">
         <h1>WIREFRAMING</h1>
+        <div class="lofi-screens">
+          <div class="row">
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi1.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi2.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi3.png" height="445" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi4.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi5.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi6.png" height="445" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi7.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi8.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi9.png" height="445" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi10.png" height="445" width="250">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/fitpact_lofi11.png" height="445" width="250">
+            </div>
+          </div>
+        </div>
+        <p><strong>Some self-critique:</strong> The top screen title header plus bottom navbar sandwiched the designs and made the available space for content and features very limited and felt squished. This design didn’t have the modern and fun aesthetic I envisioned a motivating fitness app should have. And the visual representing the user’s progress was not satisfying.</p>
       </div>
 
       <a name="usertest"></a>
       <div id="usertest">
         <h1>USER TESTING</h1>
+        <h3>Progress Bar</h3>
+        <p>In an effort to make the progress bar visual more satisfying to look at as each day of exercise was completed,
+          I came up with three designs (arm wrestling, calendar, race) and surveyed a handful of people to see which one they liked the most.
+          The arm wrestling design was the most popular, however, it posed the problem of not being all-inclusive because of the use
+          of only two skin tones. So, I went back to the drawing board and came up with a new, more minimal design to match the aesthetic of
+          the rest of the app using concentric circles that fills with color as each day of exercise is completed with each color
+          representing the user and their friend. After receiving more feedback, I added in the checkmark to imitate a stamp card making it
+          look and feel more complete.
+        </p>
+        <h3>Individual Pact</h3>
+        <p>
+          I also polled potential users for their opinions on the different variations of design for an individual pact.
+          I weighed in their opinions and considered the uniqueness and feel of the design and prioritized features to
+          see what was most important to emphasize.
+        </p>
+        <h3>Navigation</h3>
+        <p>
+          The icons in the navigation bar of the first couple of designs did not feel cohesive.
+          Also, having the buttons for navigation at the top right of the screen took up to much space both vertically and horizontally.
+          Having navigation at the top right also made it not easily accesible as this app is designed to be used on a mobile device.
+          I eventually settled for a navigation bar placed at the bottom of the screen, which makes it easily accessible when using a
+          mobile device with one hand, and the design is very rounded which matches the friendly and inviting theme of the overall design.
+        </p>
+        <h3>Onboarding</h3>
+        <p>
+          The initial design did not include onboarding, and after conducting some user tests, I noticed that some people had to ask me
+          to remind them how the pacts worked. I didn't want to attack users with a request to sign up when they first open the app. I
+          wanted to first explain how everything works so users would feel more inclined to sign up afterwards.
+          So I have onboarding at the beginning when a user opens the app for the first time, which gives a general overview of the benefits
+          of using the app. Then, after signing up and setting the parameters of your first pact, there is a walkthrough of the different
+          features on the pact screen, which you can exit out of and come back to at any time.
+        </p>
+        <h3>Search Results</h3>
+        <p>
+          For the list of search results that appears, people seemed to prefer a list view similar to how iPhone contacts are displayed
+          because it is more familiar. A drop down menu seemed more suitable for web rather than mobile. And I remembered to order the
+          search results alphabetically because that makes the most logical sense.
+        </p>
+        <h3>Nudging</h3>
+        <p>
+          Checking in is supposed to be the main call to action not nudging, so some of my options were to make it a smaller button, an
+          icon, or some different type of interaction. I chose to make it a tooltip similar to the ones that pop up throughout the walkthrough.
+        </p>
+        <h3>One Pact vs Multiple Pacts</h3>
+        <p>
+          I was initially worried about people gaming the system by creating an unlimited number of pacts and gaining a multiplied amount of fitness points by exercising the same amount they would have by only doing one pact. However, after receiving feedback from my usability tests, I realized that allowing multiple pacts is beneficial to the app because people would be excited to invite multiple friends to join them in pacts. A potential solution to moderate the business side of things is to limit the number of simultaneous pacts per person. In the future, I would need to conduct further tests to figure out a good balance between how many pacts a user would want to be in at the same time as well as how many pacts a user can be in at the same time without the business losing money by giving away too many fitness points, and therefore, too many free rewards.
+        </p>
       </div>
 
       <a name="prototype"></a>
       <div id="prototype">
         <h1>PROTOTYPING</h1>
+        <p>[link to Invision prototype]</p>
+        <div class="prototype-screens">
+          <div class="row">
+            <div class="screen">
+              <img src="assets/img/fitpact_screen1.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen2.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen3.png" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="screen">
+              <img src="assets/img/fitpact_screen4.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen5.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen6.png" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="screen">
+              <img src="assets/img/fitpact_screen7.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen8.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen9.png" width="250">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="screen">
+              <img src="assets/img/fitpact_screen10.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen11.png" width="250">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/fitpact_screen12.png" width="250">
+            </div>
+          </div>
+        </div>
       </div>
 
       <a name="iterate"></a>
       <div id="iterate">
-        <h1>ITERATE</h1>
+        <h1>ITERATE & NEXT STEPS</h1>
+        I did a second round of usability testing with five test participants to gain new insight on my latest iteration of designs. Two user tests were conducted in-person and three were remote via Skype or Google Hangouts. The purpose of this test was to discover aspects of the app design that are unclear or confusing and how the overall aesthetic made the user feel.
+        <br>
+        These were my findings and recommendations:
+        <div id="findings">
+          <img src="assets/img/fitpact_findings.png" width="900">
+        </div>
       </div>
-
-      <a name="nextsteps"></a>
-      <div id="nextsteps">
-        <h1>NEXT STEPS</h1>
+       
+      <a name="finalwords"></a>
+      <div id="finalwords">
+        <h1>FINAL WORDS</h1>
       </div>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <div class="bottomnav">
       <a class="active" href="fitpact.html">FitPact</a>
@@ -147,5 +421,7 @@
     </div>
 
   </body>
+
+  <script src="assets/js/script.js"></script>
 
 </html>
