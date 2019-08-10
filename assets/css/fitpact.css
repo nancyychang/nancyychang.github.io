@@ -63,9 +63,13 @@ body {
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333333;
   margin-left: 256px;
+}
+
+.title p {
+  font-family: 'Roboto', sans-serif;
 }
 
 #banner {
@@ -76,15 +80,38 @@ body {
   display: inline-block;
 }
 
+#blurb {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 64px;
+  color: #6F8CFF;
+}
+
+hr {
+  align: center;
+  size: 4px;
+  width: 700px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 #overview {
   font-family: 'Roboto', sans-serif;
   color: #333333;
   margin-left: 256px;
-  margin-top: 64px;
+  margin-top: 8px;
+  width: 250px;
+  float: left;
+  margin-bottom: 64px;
+}
+
+#overview h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #overview ul {
-  line-height: 1.5;
+  line-height: 2;
   font-size: 18px;
 }
 
@@ -101,11 +128,32 @@ body {
 .casestudy {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 256px;
-  margin-right: 256px;
+  margin-left: 288px;
+  margin-right: 288px;
   margin-top: 64px;
   line-height: 1.5;
   font-size: 18px;
+}
+
+#intro {
+  float: left;
+  width: 475px;
+  margin-left: 112px;
+}
+
+#intro h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF8B6F;
+}
+
+#intro i strong {
+  font-family: 'Montserrat', sans-serif;
+  color: #6F8CFF;
+}
+
+#intro a {
+  color: #6F8CFF;
 }
 
 #stat {
@@ -114,6 +162,48 @@ body {
 
 #stat img {
   display: inline-block;
+}
+
+#problem {
+  float: left;
+  width: 425px;
+  margin-bottom: 64px;
+}
+
+#solution {
+  float: left;
+  width: 300px;
+  margin-left: 96px;
+}
+
+#problem h1, #solution h1, #myrole h1, #research h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF8B6F;
+}
+
+#myrole {
+  text-align: center;
+}
+
+#role-body {
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+}
+
+#myrole-pic img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 64px;
+}
+
+#research h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #6F8CFF;
 }
 
 .persona, #userflow, #wireflow, #findings {
@@ -155,7 +245,7 @@ body {
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   margin-bottom: 104px;
-  margin-right: 128px;
+  margin-right: 64px;
 }
 
 #myBtn:hover {
