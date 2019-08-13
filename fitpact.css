@@ -134,8 +134,8 @@ hr {
 .casestudy {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 288px;
-  margin-right: 288px;
+  margin-left: 352px;
+  margin-right: 352px;
   margin-top: 64px;
   line-height: 1.5;
   font-size: 18px;
@@ -150,7 +150,7 @@ hr {
 
 #intro-body {
   display: inline-block;
-  width: 700px;
+  /* width: 700px; */
   text-align: left;
 }
 
@@ -177,22 +177,19 @@ hr {
   display: inline-block;
 }
 
-#problem {
-  float: left;
-  width: 425px;
-  margin-bottom: 64px;
-}
-
-#solution {
-  float: left;
-  width: 300px;
-  margin-left: 96px;
-}
-
-#problem h1, #solution h1, #myrole h1, #research h1 {
+#problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #FF8B6F;
+}
+
+#problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong {
+  color: #6F8CFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#wireframe strong {
+  color: #333333;
 }
 
 #myrole {
@@ -213,34 +210,128 @@ hr {
   margin-right: 64px;
 }
 
-#research h2 {
+#research h2, #infoarch h2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #6F8CFF;
 }
 
-.persona, #userflow, #wireflow, #findings {
+#infoarch h3 {
+  text-align: left;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF8B6F;
+  width: 175px;
+}
+
+#usertest h3 {
+  text-align: left;
+  /* float: left; */
+  font-family: 'Montserrat', sans-serif;
+  color: #6F8CFF;
+}
+
+#userflow, #wireflow, #findings {
   text-align: center;
 }
 
-.persona img, #userflow img, #wireflow img, #findings img {
+#userflow img, #wireflow img, #findings img {
   display: inline-block;
+}
+
+.empathy, .persona {
+  width: 700px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.empathy {
+  height: 400px;
+}
+
+.persona {
+  height: 310px;
+}
+
+.empathy img {
+  float: left;
+}
+
+.empathy-text {
+  text-align: left;
+  float: right;
+  width: 350px;
+}
+
+.persona img {
+  float: right;
+}
+
+.persona-text {
+  text-align: left;
+  float: left;
+  width: 250px;
 }
 
 #findings img {
   margin-top: 32px;
 }
 
-.screen, .sketch, .lofi {
+.sketch, .lofi {
   display: inline;
+  margin-left: 32px;
 }
 
-.prototype-screens, .sketches, .lofi-screens {
+.prototype-screens, .lofi-screens {
   text-align: center;
 }
 
-.row {
+.screen {
   display: inline-block;
+}
+
+.sketches {
+  text-align: left;
+  margin-bottom: 64px;
+}
+
+.sketch-row {
+  display: inline-block;
+  margin-top: 64px;
+}
+
+#userflow {
+  height: 520px;
+}
+
+#userflow p {
+  text-align: left;
+  float: left;
+  width: 250px;
+}
+
+#userflow img {
+  float: right;
+}
+
+.progress-iters, .pact-screens, .onboard-screens, .nav-iters, .search-screens, .nudge-iters, .mult-screens {
+  text-align: center;
+}
+
+.progress-row, .pact-row, .onboard-row, .nav-row, .search-row, .nudge-row, .mult-row {
+  display: inline-block;
+}
+
+.progress img, .pact img, .nav img, .nav2 img, .search img, .nudge img, .multpact img {
+  margin: 16px;
+}
+
+.container {
+  margin-top: 64px;
+}
+
+.pact, .nav2, .onboard, .search, .nudge, .multpact {
+  display: inline;
 }
 
 #myBtn {
