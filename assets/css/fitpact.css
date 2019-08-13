@@ -98,11 +98,6 @@ hr {
 #overview {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  /* margin-left: 256px; */
-  /* margin-top: 8px; */
-  /* width: 250px; */
-  /* float: left; */
-  /* margin-bottom: 64px; */
   text-align: center;
 }
 
@@ -142,15 +137,11 @@ hr {
 }
 
 #intro {
-  /* float: left; */
-  /* width: 475px;
-  margin-left: 112px; */
   text-align: center;
 }
 
 #intro-body {
   display: inline-block;
-  /* width: 700px; */
   text-align: left;
 }
 
@@ -188,10 +179,6 @@ hr {
   font-family: 'Montserrat', sans-serif;
 }
 
-#wireframe strong {
-  color: #333333;
-}
-
 #myrole {
   text-align: center;
 }
@@ -226,7 +213,6 @@ hr {
 
 #usertest h3 {
   text-align: left;
-  /* float: left; */
   font-family: 'Montserrat', sans-serif;
   color: #6F8CFF;
 }
@@ -277,13 +263,17 @@ hr {
   margin-top: 32px;
 }
 
-.sketch, .lofi {
+.sketch {
   display: inline;
   margin-left: 32px;
 }
 
 .prototype-screens, .lofi-screens {
   text-align: center;
+}
+
+.row {
+  display: inline-block;
 }
 
 .screen {
@@ -330,7 +320,7 @@ hr {
   margin-top: 64px;
 }
 
-.pact, .nav2, .onboard, .search, .nudge, .multpact {
+.pact, .nav2, .onboard, .search, .nudge, .multpact, .lofi {
   display: inline;
 }
 
