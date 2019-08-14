@@ -174,7 +174,7 @@ hr {
   color: #FF8B6F;
 }
 
-#problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong {
+#problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
   color: #6F8CFF;
   font-family: 'Montserrat', sans-serif;
 }
@@ -322,6 +322,14 @@ hr {
 
 .pact, .nav2, .onboard, .search, .nudge, .multpact, .lofi {
   display: inline;
+}
+
+#embed-proto {
+  text-align: center;
+}
+
+iframe {
+  display: inline-block;
 }
 
 #myBtn {
