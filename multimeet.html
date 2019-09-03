@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>nancychang</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/multimeet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+    <div id="logo">
+      <a href="index.html">
+        <img src="assets/img/logo.png" alt="personal logo" height="48">
+      </a>
+    </div>
+
+    <div id="name">
+      <a href="index.html">NANCY CHANG</a>
+    </div>
+
+    <div class="navbar">
+      <a class="active" href="index.html">Work</a>
+      <a href="forfun.html">For Fun</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="title">
+      <h1>MultiMeet Redesign UI/UX Case Study</h1>
+      <p>Schedule Optimization & Editing Web App
+        <br>
+      by Nancy Chang</p>
+    </div>
+
+    <div id="banner">
+      <!-- <img src="assets/img/fitpact_casestudy_banner.png" width="900"> -->
+    </div>
+
+    <div id="blurb">
+      <i>An automated theater scheduling tool for directors and stage managers</i>
+    </div>
+
+    <hr>
+
+    <div id="overview">
+      <div id="overview-body">
+        <h1>Overview</h1>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#solution">Solution</a></li>
+          <li><a href="#myrole">My Role</a></li>
+          <li><a href="#research">Research: Understanding the User</a></li>
+          <li><a href="#infoarch">Information Architecture</a></li>
+          <li><a href="#wireframe">Wireframing</a></li>
+          <li><a href="#usertest">User Testing</a></li>
+          <li><a href="#prototype">Prototyping</a></li>
+          <li><a href="#iterate">Iterate & Next Steps</a></li>
+          <li><a href="#finalwords">Final Words</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="casestudy">
+      <a name="intro"></a>
+      <div id="intro">
+        <div id="intro-body">
+          <h1>What is MultiMeet?</h1>
+          <p>
+            MultiMeet is a scheduling platform (currently specific for the theater scene: stage managers and actors) that is able to handle mutually dependent events and prioritize events based on the rules and constraints entered by the user, generating an optimized schedule for all participants involved.
+          </p>
+        </div>
+      </div>
+
+      <a name="problem"></a>
+      <div id="problem">
+        <h1>What's the Problem?</h1>
+        <p>
+          Currently, scheduling is done by hand by the stage managers where they have to account for the actors’ external availabilities and make their rehearsal schedules as efficient as possible. This task can take a few hours to complete and is very tedious.
+          <br>
+          MultiMeet tackles this pain point by being able to generate an optimized schedule in minutes, however, users have expressed the desire to be able to edit a schedule manually after the optimized schedule has already been generated.
+        </p>
+      </div>
+
+      <a name="solution"></a>
+      <div id="solution">
+        <h1>Here's My Solution</h1>
+        <p>
+          I will be coming up with a user friendly design that allows users to be able to manually edit a MultiMeet generated schedule that allows them to view how efficiently everyone’s time is being used in order to make smart adjustments.
+        </p>
+      </div>
+
+      <hr>
+
+      <a name="myrole"></a>
+      <div id="myrole">
+        <h1>My Role</h1>
+        <div id="role-body">
+          <div id="myrole-pic">
+            <img src="assets/img/myrolepic3.jpeg">
+          </div>
+          <p>
+            My role in this project was to work with the founder of MultiMeet and redesign the editing feature of the scheduling platform by taking notes on data and feedback they already received from previous beta testing, brainstorming and wireframing potential solutions, and prototyping and testing designs with existing MultiMeet users.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <a name="research"></a>
+      <div id="research">
+        <h1>User's Wants & Needs</h1>
+        <p>
+          Before diving into brainstorming solutions and sketching, I wanted to clarify and confirm what MultiMeet users would want
+          and need while editing their schedules. This is the list of requirements I organized after consulting with MultiMeet's founder:
+          <br>
+          <ul>
+            <li>The current schedule</li>
+            <li>A list of rehearsals that are not yet scheduled</li>
+            <li>Information about who is needed for each rehearsal</li>
+            <li>Information about everyone's conflicts/availabilities</li>
+            <li>Ability to visualize the schedule from the perspective of an individual participant</li>
+            <li>Allow different variants of the schedule (e.g. ability to save or revert back to old versions)</li>
+            <li>Basic information of individual rehearsals (length, what is being rehearsed, etc.)</li>
+            <li>Information about who is needed for a particular rehearsal</li>
+            <li>Information about conflicts and availability affecting a particular rehearsal</li>
+          </ul>
+        </p>
+      </div>
+
+      <hr>
+
+      <a name="infoarch"></a>
+      <div id="infoarch">
+        <h1>Brainstorming & LoFi Mockups</h1>
+        <p>
+          Now that I had a better idea of what features were needed and what information needed to be accessible, I came up with three different designs. I presented these designs to Mark to see what he thought. After our meeting where we did a critique of each design and bounced ideas off of each other, the main takeaways I got were that:
+        </p>
+        <ol>
+          <li>He liked that the user would be able to see the current and new schedules side by side as they made edits in design #1.</li>
+          <li>It’s nice to be able to see the conflicts and availabilities of each participant in a particular day and be able to see how the rehearsal to be rescheduled will affect each participant’s schedules as in design #2. However, he thought it made more sense to switch the times and actors aka have the times of the day listed vertically down the left side of the table and the actors listed horizontally across the top.</li>
+        </ol>
+
+        <div class="sketches">
+          <div class="sketch-row">
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstorm1.jpeg" width="400">
+            </div>
+
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstorm2.jpeg" width="400">
+            </div>
+
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstorm3.jpeg" width="400">
+            </div>
+          </div>
+
+          <div class="sketch-row">
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstormlofi1.png" width="400">
+            </div>
+
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstormlofi2.png" width="400">
+            </div>
+
+            <div class="sketch">
+              <img src="assets/img/multimeet_brainstormlofi3.png" width="400">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <a name="wireframe"></a>
+      <div id="wireframe">
+        <h1>Wireframing</h1>
+        <p>
+          [insert video of lofi interactive prototype]
+        </p>
+
+        <div class="lofi-screens">
+          <div class="row">
+            <div class="lofi">
+              <img src="assets/img/multimeet_wireframe1.png" width="400">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/multimeet_wireframe2.png" width="400">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/multimeet_wireframe3.png" width="400">
+            </div>
+
+            <div class="lofi">
+              <img src="assets/img/multimeet_wireframe4.png" width="400">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <a name="prototype"></a>
+      <div id="prototype">
+        <h1>Prototyping</h1>
+        <p>
+          [insert video of hifi interactive prototype]
+        </p>
+
+        <div class="prototype-screens">
+          <div class="row">
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype1.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype2.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype3.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype4.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype5.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype6.png" width="400">
+            </div>
+
+            <div class="screen">
+              <img src="assets/img/multimeet_prototype7.png" width="400">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <a name="usertest"></a>
+      <div id="usertest">
+        <h1>First Round of User Testing</h1>
+        <p>
+          About the user:
+          She has worked as a stage manager on several Shakespeare productions (Hamlet, The Taming of the Shrew, King John) and shares the pain points of having to tediously construct schedules manually using Excel spreadsheets. She is also familiar with the early stages of MultiMeet.
+        </p>
+
+        <ul>
+          <li>Text is really small/hard to read</li>
+          <li>Was not sure if lighter or darker colors were "better" in terms of availability (eventually concluded that darker was better)</li>
+          <li>Immediately deduced that in order to reschedule an event, you could click on it and drag it around (because it's similar to how Google calendar works)</li>
+          <li>Thought the "undo" button would act like a "back" button and bring the user back to the previous page they were on</li>
+          <li>Might be more intuitive if there was only one calendar instead of having a "current" and "new" because user was unsure if they were supposed to reschedule event by dropping it into the current calendar or new calendar</li>
+          <li>Would like to be able to easily switch between days with similar participant availabilities to see how well the event would fit in each day before finalizing the reschedule</li>
+          <li>If there are many people needed for an event, it might be annoying to have to continuously scroll left and right in order to view everyone's availabilities</li>
+          <li>Suggestion: collapse/condense the table by representing each participant by their initials</li>
+          <li>Maybe also include in the tab that states the sum total of conflicts there are as you drag the event up and down along the schedule</li>
+          <li>Would like to be able to click on events under "unscheduled" to see available times in the calendar and drag and drop those events into the calendar as well</li>
+          <li>Interesting idea: ability to select a block of time and be given suggestions for what events could be placed there given participants' availabilities</li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <a name="iterate"></a>
+      <div id="iterate">
+        <h1>Iterate</h1>
+        <p>
+          [more high fidelity screens incorporating feedback from user test]
+        </p>
+      </div>
+
+      <hr>
+
+      <a name="usertest2"></a>
+      <div id="usertest2">
+        <h1>Second Round of User Testing</h1>
+        <p>
+          [TBD: happening either Wednesday (9/4) or Friday (9/6) after 12:30pm]
+        </p>
+      </div>
+
+      <hr>
+
+      <a name="nextsteps"></a>
+      <div id="nextsteps">
+        <h1>Potential Next Steps for MultiMeet</h1>
+        <p>
+          [list out issues, findings, and recommendations like in a usability test report]
+        </p>
+      </div>
+
+      <hr>
+
+      <a name="finalwords"></a>
+      <div id="finalwords">
+        <h1>What I Learned</h1>
+        <p>
+          This was my first time working on a product for a field I was not as familiar with! I had to learn about all the little nuances and unique frustrations stage managers had to deal with while trying to create a rehearsal schedule that is suitable for all participants involved in the play. This was a very fun and educational experience for me because I really had to listen to the wants and needs of the users and figure out how to design to tackle their problem since I didn’t have personal experience with stage management to draw from. I also had the opportunity to work with the founder of the product and learned how to balance what the founder wanted out of the redesign and what the users told me they wanted from the feedback they gave me during user tests. I ultimately had to prioritize what users had to say in order to further the success of the product. I hope my redesign of the MultiMeet edit feature helps the future design direction of MultiMeet and can’t wait to see how it grows!
+        </p>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="bottomnav">
+      <a href="fitpact.html">FitPact</a>
+      <a href="citypups.html">CityPups</a>
+      <a class="active" href="multimeet.html">MultiMeet</a>
+    </div>
+
+    <div class="sig">
+      Designed and coded by Nancy Chang :)
+    </div>
+
+  </body>
+
+  <script src="assets/js/script.js"></script>
+
+</html>
