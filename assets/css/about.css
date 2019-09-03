@@ -75,15 +75,19 @@ div#bio p {
   line-height: 1.5;
 }
 
-div#bio a {
-  color: blue;
-}
-
 div#bio img {
   transform: rotate(90deg);
   margin: 24px;
   margin-top: 96px;
   margin-bottom: 96px;
+}
+
+div#bio a {
+  color: #333333;
+}
+
+div#bio a:hover {
+  color: #b8e2f2;
 }
 
 .bottomnav {

@@ -148,7 +148,7 @@ hr {
 #intro h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #FF8B6F;
+  color: #3AAFA9;
 }
 
 #intro i strong {
@@ -168,10 +168,10 @@ hr {
   display: inline-block;
 }
 
-#problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #finalwords h1 {
+#problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #usertest2 h1, #nextsteps h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #FF8B6F;
+  color: #3AAFA9;
 }
 
 #problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
@@ -200,7 +200,7 @@ hr {
 #research h2, #infoarch h2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #6F8CFF;
+  color: #979797;
 }
 
 #infoarch h3 {

@@ -63,9 +63,13 @@ body {
 }
 
 .title {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #333333;
   margin-left: 256px;
+}
+
+.title p {
+  font-family: 'Roboto', sans-serif;
 }
 
 #banner {
@@ -76,16 +80,62 @@ body {
   display: inline-block;
 }
 
+#blurb {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 64px;
+  color: #C3BEF7;
+}
+
+hr {
+  align: center;
+  size: 4px;
+  width: 700px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+strong {
+  color: #C3BEF7;
+  font-family: 'Montserrat', sans-serif;
+}
+
 #overview {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 256px;
-  margin-top: 64px;
+  text-align: center;
+}
+
+.body {
+  display: inline-block;
+}
+
+.body h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A038FF;
+}
+
+.body h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+}
+
+.body h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #C3BEF7;
+}
+
+#approach h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
 }
 
 #overview ul {
-  line-height: 1.5;
+  line-height: 2;
   font-size: 18px;
+  text-align: left;
 }
 
 #overview a:link, a:visited {
@@ -98,14 +148,34 @@ body {
   color: #979797;
 }
 
+#myrole-pic img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 64px;
+}
+
 .casestudy {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 256px;
-  margin-right: 256px;
+  margin-left: 352px;
+  margin-right: 352px;
   margin-top: 64px;
   line-height: 1.5;
   font-size: 18px;
+}
+
+#userflow, #crazy8, #solsketch, #story, #proto-screens {
+  text-align: center;
+}
+
+#userflow img, #crazy8 img, #solsketch img, #story img, #proto-screens img {
+  display: inline-block;
+}
+
+#userflow-caption {
+  font-size: 14px;
 }
 
 #myBtn {
