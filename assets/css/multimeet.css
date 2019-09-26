@@ -38,6 +38,14 @@ body {
   color: #b8e2f2;
 }
 
+#title {
+  padding-top: 32px;
+  padding-left: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
 .navbar {
   margin-top: 32px;
   margin-right: 32px;
@@ -151,31 +159,19 @@ hr {
   color: #3AAFA9;
 }
 
-#intro i strong {
+#intro strong {
   font-family: 'Montserrat', sans-serif;
-  color: #6F8CFF;
+  color: #9BD16A;
 }
 
-#intro a {
-  color: #6F8CFF;
-}
-
-#stat {
-  text-align: center;
-}
-
-#stat img {
-  display: inline-block;
-}
-
-#problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #usertest2 h1, #nextsteps h1, #finalwords h1 {
+#problem h1, #solution h1, #myrole h1, #research h1, #brainstorm h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #usertest2 h1, #nextsteps h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #3AAFA9;
 }
 
-#problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
-  color: #6F8CFF;
+#problem strong, #solution strong, #myrole strong, #research strong, #brainstorm strong, #wireframe strong, #usertest strong, #usertest2 strong, .text strong, #finalwords strong {
+  color: #9BD16A;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -197,13 +193,13 @@ hr {
   margin-right: 64px;
 }
 
-#research h2, #infoarch h2 {
+#research h2, #brainstorm h2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #979797;
 }
 
-#infoarch h3 {
+#brainstorm h3 {
   text-align: left;
   float: left;
   font-family: 'Montserrat', sans-serif;
@@ -225,38 +221,9 @@ hr {
   display: inline-block;
 }
 
-.empathy, .persona {
-  width: 700px;
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
-.empathy {
-  height: 400px;
-}
-
-.persona {
-  height: 310px;
-}
-
-.empathy img {
-  float: left;
-}
-
-.empathy-text {
-  text-align: left;
-  float: right;
-  width: 350px;
-}
-
-.persona img {
-  float: right;
-}
-
-.persona-text {
-  text-align: left;
-  float: left;
-  width: 250px;
+.caption {
+  font-size: 12px;
+  color: #333333;
 }
 
 #findings img {
@@ -264,8 +231,8 @@ hr {
 }
 
 .sketch {
-  display: inline;
-  margin-left: 32px;
+  display: inline-block;
+  /* margin-left: 32px; */
 }
 
 .prototype-screens, .lofi-screens {
@@ -278,10 +245,11 @@ hr {
 
 .screen {
   display: inline-block;
+  margin-bottom: 64px;
 }
 
 .sketches {
-  text-align: left;
+  text-align: center;
   margin-bottom: 64px;
 }
 
@@ -302,6 +270,14 @@ hr {
 
 #userflow img {
   float: right;
+}
+
+#wireframe, #iterate, #prototype {
+  text-align: center;
+}
+
+video {
+  display: inline-block;
 }
 
 .progress-iters, .pact-screens, .onboard-screens, .nav-iters, .search-screens, .nudge-iters, .mult-screens {

@@ -38,6 +38,14 @@ body {
   color: #b8e2f2;
 }
 
+#title {
+  padding-top: 32px;
+  padding-left: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
 .navbar {
   margin-top: 32px;
   margin-right: 32px;
@@ -322,6 +330,32 @@ hr {
 
 .pact, .nav2, .onboard, .search, .nudge, .multpact, .lofi {
   display: inline;
+}
+
+.lofi {
+  width: 225px;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.screen {
+  width: 220px;
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.lofi-caption {
+  width: 225px;
+  font-size: 12px;
+  color: #333333;
+}
+
+.proto-caption {
+  width: 210px;
+  font-size: 12px;
+  color: #333333;
 }
 
 #embed-proto {

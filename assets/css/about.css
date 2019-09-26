@@ -38,6 +38,14 @@ body {
   color: #b8e2f2;
 }
 
+#title {
+  padding-top: 32px;
+  padding-left: 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
 .navbar {
   margin-top: 32px;
   margin-right: 32px;
