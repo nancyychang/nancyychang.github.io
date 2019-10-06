@@ -18,14 +18,20 @@ body {
 }
 
 #logo {
-  margin: 24px;
+  margin-left: 2.3vw;
+  margin-top: 2.3vw;
+}
+
+.logo-responsive {
+  width: 3%;
+  height: auto;
 }
 
 #name {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 4vw;
 }
 
 #name a:link, a:visited {
@@ -38,27 +44,24 @@ body {
   color: #b8e2f2;
 }
 
-#title {
-  padding-top: 32px;
-  padding-left: 32px;
-  font-size: 18px;
+small {
+  font-size: 1.3vw;
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
 }
 
 .navbar {
-  margin-top: 32px;
-  margin-right: 32px;
+  margin-top: 3vw;
+  margin-right: 2.3vw;
   float: right;
 }
 
 .navbar a {
   color: #333333;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 1.5vw;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.8vw;
 }
 
 .navbar a:hover {
@@ -73,11 +76,16 @@ body {
 .title {
   font-family: 'Montserrat', sans-serif;
   color: #333333;
-  margin-left: 256px;
+  margin-left: 18vw;
 }
 
 .title p {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.1vw;
+}
+
+.title h1 {
+  font-size: 2.3vw;
 }
 
 #banner {
@@ -88,19 +96,25 @@ body {
   display: inline-block;
 }
 
+.banner-responsive {
+  width: 63%;
+  height: auto;
+}
+
 #blurb {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 64px;
+  margin-top: 4.6vw;
   color: #6F8CFF;
+  font-size: 1.3vw;
 }
 
 hr {
   align: center;
   size: 4px;
-  width: 700px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  width: 50%;
+  margin-top: 4.6vw;
+  margin-bottom: 4.6vw;
 }
 
 #overview {
@@ -116,11 +130,12 @@ hr {
 #overview h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.3vw;
 }
 
 #overview ul {
   line-height: 2;
-  font-size: 18px;
+  font-size: 1.3vw;
   text-align: left;
 }
 
@@ -137,11 +152,11 @@ hr {
 .casestudy {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 352px;
-  margin-right: 352px;
-  margin-top: 64px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4.6vw;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 1.3vw;
 }
 
 #intro {
@@ -157,6 +172,7 @@ hr {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #FF8B6F;
+  font-size: 2.3vw;
 }
 
 #intro i strong {
@@ -176,10 +192,16 @@ hr {
   display: inline-block;
 }
 
+.stat-responsive {
+  width: 75%;
+  height: auto;
+}
+
 #problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #FF8B6F;
+  font-size: 2.3vw;
 }
 
 #problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
@@ -193,22 +215,25 @@ hr {
 
 #role-body {
   display: inline-block;
-  /* width: 550px; */
   text-align: left;
+}
+
+.role-responsive {
+  width: 30%;
+  height: auto;
 }
 
 #myrole-pic img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
   float: left;
-  margin-right: 64px;
+  margin-right: 4.6vw;
 }
 
 #research h2, #infoarch h2 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #6F8CFF;
+  font-size: 2vw;
 }
 
 #infoarch h3 {
@@ -216,13 +241,15 @@ hr {
   float: left;
   font-family: 'Montserrat', sans-serif;
   color: #FF8B6F;
-  width: 175px;
+  width: 15vw;
+  font-size: 1.5vw;
 }
 
 #usertest h3 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   color: #6F8CFF;
+  font-size: 1.5vw;
 }
 
 #userflow, #wireflow, #findings {
@@ -234,46 +261,140 @@ hr {
 }
 
 .empathy, .persona {
-  width: 700px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 4.6vw;
+  margin-bottom: 4.6vw;
 }
 
 .empathy {
-  height: 400px;
+  height: 30vw;
 }
 
 .persona {
-  height: 310px;
+  height: 25vw;
 }
 
 .empathy img {
   float: left;
 }
 
+.empathy-responsive {
+  width: 40%;
+  height: auto;
+}
+
 .empathy-text {
   text-align: left;
   float: right;
-  width: 350px;
+  width: 50%;
 }
 
 .persona img {
   float: right;
 }
 
+.persona-responsive {
+  width: 60%;
+  height: auto;
+}
+
 .persona-text {
   text-align: left;
   float: left;
-  width: 250px;
+  width: 30%;
 }
 
 #findings img {
-  margin-top: 32px;
+  margin-top: 1.6vw;
 }
 
 .sketch {
   display: inline;
-  margin-left: 32px;
+  margin-left: 1.6vw;
+}
+
+.sketch-responsive {
+  width: 30%;
+  height: auto;
+}
+
+.userflow-responsive {
+  width: 60%;
+  height: auto;
+}
+
+.wireflow-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.lofi-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.progress-responsive {
+  width: 50%;
+  height: auto;
+}
+
+.pact-responsive {
+  width: 18%;
+  height: auto;
+}
+
+.nav-responsive1 {
+  width: 40%;
+  height: auto;
+}
+
+.nav-responsive2 {
+  width: 25%;
+  height: auto;
+}
+
+.nav-responsive3 {
+  width: 25%;
+  height: auto;
+}
+
+.onboard-responsive1 {
+  width: 25%;
+  height: auto;
+}
+
+.onboard-responsive2 {
+  width: 18%;
+  height: auto;
+}
+
+.search-responsive {
+  width: 25%;
+  height: auto;
+}
+
+.nudge-responsive1 {
+  width: 25%;
+  height: auto;
+}
+
+.nudge-responsive2 {
+  width: 35%;
+  height: auto;
+}
+
+.mult-responsive {
+  width: 25%;
+  height: auto;
+}
+
+.proto-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.findings-responsive {
+  width: 100%;
+  height: auto;
 }
 
 .prototype-screens, .lofi-screens {
@@ -290,22 +411,22 @@ hr {
 
 .sketches {
   text-align: left;
-  margin-bottom: 64px;
+  margin-bottom: 2.6vw;
 }
 
 .sketch-row {
   display: inline-block;
-  margin-top: 64px;
+  margin-top: 2.6vw;
 }
 
 #userflow {
-  height: 520px;
+  height: 40vw;
 }
 
 #userflow p {
   text-align: left;
   float: left;
-  width: 250px;
+  width: 16vw;
 }
 
 #userflow img {
@@ -321,11 +442,15 @@ hr {
 }
 
 .progress img, .pact img, .nav img, .nav2 img, .search img, .nudge img, .multpact img {
-  margin: 16px;
+  margin: 1vw;
+}
+
+.text {
+  text-align: left;
 }
 
 .container {
-  margin-top: 64px;
+  margin-top: 2.3vw;
 }
 
 .pact, .nav2, .onboard, .search, .nudge, .multpact, .lofi {
@@ -333,28 +458,27 @@ hr {
 }
 
 .lofi {
-  width: 225px;
+  width: 30%;
   float: left;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin: 0.5vw;
 }
 
 .screen {
-  width: 220px;
+  width: 30%;
   float: left;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 0.75vw;
+  margin-right: 0.75vw;
 }
 
 .lofi-caption {
-  width: 225px;
-  font-size: 12px;
+  width: 15vw;
+  font-size: 0.75vw;
   color: #333333;
 }
 
 .proto-caption {
-  width: 210px;
-  font-size: 12px;
+  width: 15vw;
+  font-size: 0.75vw;
   color: #333333;
 }
 
@@ -374,19 +498,19 @@ iframe {
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 1vw; /* Place the button at the bottom of the page */
+  right: 2vw; /* Place the button 2vw from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #b8e2f2; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 1vw; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  margin-bottom: 104px;
-  margin-right: 64px;
+  font-size: 1.2vw; /* Increase font size */
+  margin-bottom: 2.3vw;
+  margin-right: 2.3vw;
 }
 
 #myBtn:hover {
@@ -395,16 +519,16 @@ iframe {
 
 .bottomnav {
   text-align: center;
-  margin-top: 64px;
+  margin-top: 2.3vw;
 }
 
 .bottomnav a {
   color: #979797;
   display: inline-block;
-  padding: 14px 16px;
+  padding: 1vw 1.5vw;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.6vw;
 }
 
 .bottomnav a:hover {
@@ -419,6 +543,6 @@ iframe {
 .sig {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  margin-bottom: 64px;
+  font-size: 1vw;
+  margin-bottom: 2.3vw;
 }
