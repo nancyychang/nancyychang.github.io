@@ -13,13 +13,13 @@ body {
     #secondary { width:100%; margin:0; border:none; }
 } */
 
-/* #logo, #name, .navbar {
-  display: inline-flex;
-} */
-
-#header {
+#logo, #name, .navbar {
   display: inline-flex;
 }
+
+/* #header {
+  display: inline-flex;
+} */
 
 #logo {
   margin-left: 2.3vw;
@@ -55,7 +55,6 @@ small {
 
 .navbar {
   margin-top: 3vw;
-  margin-right: 2.3vw;
   float: right;
 }
 
