@@ -13,7 +13,11 @@ body {
     #secondary { width:100%; margin:0; border:none; }
 } */
 
-#logo, #name, .navbar {
+/* #logo, #name, .navbar {
+  display: inline-flex;
+} */
+
+#header {
   display: inline-flex;
 }
 
@@ -51,6 +55,7 @@ small {
 
 .navbar {
   margin-top: 3vw;
+  margin-right: 2.3vw;
   float: right;
 }
 
