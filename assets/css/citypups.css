@@ -18,14 +18,20 @@ body {
 }
 
 #logo {
-  margin: 24px;
+  margin-left: 2.3vw;
+  margin-top: 2.3vw;
+}
+
+.logo-responsive {
+  width: 3%;
+  height: auto;
 }
 
 #name {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 4vw;
 }
 
 #name a:link, a:visited {
@@ -38,27 +44,23 @@ body {
   color: #b8e2f2;
 }
 
-#title {
-  padding-top: 32px;
-  padding-left: 32px;
-  font-size: 18px;
+small {
+  font-size: 1.3vw;
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
 }
 
 .navbar {
-  margin-top: 32px;
-  margin-right: 32px;
+  margin-top: 3vw;
   float: right;
 }
 
 .navbar a {
   color: #333333;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1vw 1.5vw;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.8vw;
 }
 
 .navbar a:hover {
@@ -73,11 +75,16 @@ body {
 .title {
   font-family: 'Montserrat', sans-serif;
   color: #333333;
-  margin-left: 256px;
+  margin-left: 18vw;
 }
 
 .title p {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.1vw;
+}
+
+.title h1 {
+  font-size: 2.3vw;
 }
 
 #banner {
@@ -88,19 +95,25 @@ body {
   display: inline-block;
 }
 
+.banner-responsive {
+  width: 63%;
+  height: auto;
+}
+
 #blurb {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 64px;
+  margin-top: 4.6vw;
   color: #C3BEF7;
+  font-size: 1.3vw;
 }
 
 hr {
   align: center;
   size: 4px;
-  width: 700px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  width: 50%;
+  margin-top: 4.6vw;
+  margin-bottom: 4.6vw;
 }
 
 strong {
@@ -114,6 +127,12 @@ strong {
   text-align: center;
 }
 
+#overview .body ul {
+  line-height: 2;
+  font-size: 1.3vw;
+  text-align: left;
+}
+
 .body {
   display: inline-block;
 }
@@ -122,28 +141,40 @@ strong {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #A038FF;
+  font-size: 2.3vw;
 }
 
 .body h2 {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #333333;
+  font-size: 2vw;
 }
 
-.body h4 {
+#research h1, #brainstorm h1, #storyboard h1, #prototype h1, #usertest h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A038FF;
+  font-size: 2.3vw;
+}
+
+#usertest h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 2vw;
+}
+
+#research h4, #brainstorm h4, #usertest h4 {
   font-family: 'Montserrat', sans-serif;
   color: #C3BEF7;
+  font-size: 1.3vw;
 }
 
 #approach h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #333333;
-}
-
-#overview ul {
-  line-height: 2;
-  font-size: 18px;
-  text-align: left;
+  font-size: 2.3vw;
 }
 
 #overview a:link, a:visited {
@@ -158,20 +189,23 @@ strong {
 
 #myrole-pic img {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
   float: left;
-  margin-right: 64px;
+  margin-right: 4.6vw;
+}
+
+.role-responsive {
+  width: 30%;
+  height: auto;
 }
 
 .casestudy {
   font-family: 'Roboto', sans-serif;
   color: #333333;
-  margin-left: 352px;
-  margin-right: 352px;
-  margin-top: 64px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 4.6vw;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 1.3vw;
 }
 
 #userflow, #crazy8, #solsketch, #story, #proto-screens {
@@ -183,7 +217,12 @@ strong {
 }
 
 #userflow-caption {
-  font-size: 14px;
+  font-size: 1vw;
+}
+
+.userflow-responsive, .brainstorm-responsive, .solsketch-responsive, .storyboard-responsive, .proto-responsive {
+  width: 100%;
+  height: auto;
 }
 
 .screen {
@@ -194,26 +233,26 @@ strong {
 }
 
 .caption {
-  font-size: 12px;
+  font-size: 1vw;
   color: #333333;
 }
 
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 1vw; /* Place the button at the bottom of the page */
+  right: 2vw; /* Place the button 2vw from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: #b8e2f2; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 1vw; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-  margin-bottom: 104px;
-  margin-right: 128px;
+  font-size: 1.2vw; /* Increase font size */
+  margin-bottom: 2.3vw;
+  margin-right: 2.3vw;
 }
 
 #myBtn:hover {
@@ -222,16 +261,16 @@ strong {
 
 .bottomnav {
   text-align: center;
-  margin-top: 64px;
+  margin-top: 2.3vw;
 }
 
 .bottomnav a {
   color: #979797;
   display: inline-block;
-  padding: 14px 16px;
+  padding: 1vw 1.5vw;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 1.6vw;
 }
 
 .bottomnav a:hover {
@@ -246,6 +285,6 @@ strong {
 .sig {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  margin-bottom: 64px;
+  font-size: 1vw;
+  margin-bottom: 2.3vw;
 }
