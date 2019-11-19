@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>nancychang</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/citypups.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+    <div id="name">
+      <a href="index.html">
+        <img src="assets/img/logo.png" alt="personal logo" class="logo-responsive" id="logo">
+        NANCY CHANG
+        <small>UX/Product Designer</small>
+      </a>
+    </div>
+
+    <div class="navbar">
+      <a class="active" href="index.html">Work</a>
+      <a href="forfun.html">For Fun</a>
+      <a href="about.html">About</a>
+    </div>
+
+    <div class="title">
+      <h1>Treasure Data Design Exercise</h1>
+      <p>Personal Job Tracker Web App
+        <br>
+      by Nancy Chang</p>
+    </div>
+
+
+    <div id="overview">
+      <!-- <div class="body">
+        <h1>Overview</h1>
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#myrole">My Role</a></li>
+          <li><a href="#research">Day 1: Research & User Flow</a></li>
+          <li><a href="#brainstorm">Day 2: Brainstorm Solutions</a></li>
+          <li><a href="#storyboard">Day 3: Storyboard</a></li>
+          <li><a href="#prototype">Day 4: Prototype</a></li>
+          <li><a href="#usertest">Day 5: User Test</a></li>
+          <li><a href="#learn">What I Learned</a></li>
+        </ul>
+      </div> -->
+    </div>
+
+    <div class="casestudy">
+
+      <h1>Introduction</h1>
+      <p>After my initial interview with Arm Treasure Data, I was given a take-home design exercise
+        to complete and present during the next video call. The assignment was to design a personal
+        job tracker with me, the job seeker, as the primary user.
+        <br>
+        <br>
+        The use cases I had to include were:
+        <ol>
+          <li>Add a note for the company or person you are interviewing with</li>
+          <li>Change status of application and view timeline</li>
+          <li>Read and reply to email threads without going to Gmail</li>
+          <li>Edit profile of interviewer</li>
+          <li>Put in a task (like a design exercise or thank you followup email)</li>
+          <li>View details of design exercise</li>
+          <li>See how long commute would be</li>
+          <li>Rate company for different personal criteria</li>
+        </ol>
+
+        Here is a video of the prototype I created on InVision Studio:
+        <video width="700" controls autoplay>
+          <source src="assets/img/treasuredata_video.mov" type="video/mp4">
+        </video>
+        <br>
+        <br>
+        Unfortunately, I did not proceed to the next round of interviews, but I had a lot of fun
+        working on this take-home design exercise, and I received some helpful feedback.
+      </p>
+
+      <h1>High Fidelity Mockups & Feedback</h1>
+
+      <p><strong>Left Side Nav:</strong>
+        <br>
+        I designed icons for the dashboard, application history, recruiters, and active jobs.
+        We will only be looking at screens under active jobs.
+        <br>
+        <br>
+        <strong>Right Side Nav:</strong>
+        <br>
+        I wanted to make this similar to the extensions I see in Gmail because this is something
+        I am already familiar with. The idea of the calendar is that I can click on it to view what
+        my interview schedule looks like in the upcoming weeks/months. The teal star with a plus
+        sign allows me to add my different personal rating criteria. I can view the notes I took
+        specific to the tab I'm on by clicking on the notes icon (use case 1). And finally, I can
+        modify features in settings to customize my personal job tracker.
+      </p>
+
+      <h3>Overview</h3>
+      <img src="assets/img/treasuredata_screens/overview1.png" width="700">
+      <p>
+        The overview screen shows me the company's name, the position I applied for, a rating out of five stars,
+        how long the commute is, application status (use case 2), timeline of interviews and assignments (use case 2),
+        and my email thread with the recruiter/interviewer (use case 3).
+      </p>
+      <img src="assets/img/treasuredata_screens/overview2.png" width="700">
+      <p>
+        The email thread is formatted similarly to Gmail.
+        <br>
+        <br>
+        <strong>Feedback:</strong>
+        <br>
+        It should still include text modification features such as changing fonts, font size,
+        bolding, italicizing, etc and be able to attach files.
+      </p>
+      <img src="assets/img/treasuredata_screens/overview3.png" width="700">
+      <p>
+        The dropdown menu allows me to change the status of my application.
+      </p>
+
+      <h3>Company Info</h3>
+      <img src="assets/img/treasuredata_screens/companyinfo1.png" width="700">
+      <p>
+        Empty state of the company info screen.
+      </p>
+      <img src="assets/img/treasuredata_screens/companyinfo2.png" width="700">
+      <p>
+        A modal with a form pops up when I click on the edit button. Here I can input the
+        company's address, company's website, and a link to the job post which will be embedded
+        in the page after I click the save button.
+        <br>
+        <br>
+        <strong>Feedback:</strong>
+        <br>
+        Pop up modals are outdated and clunky because it requires the
+        user to go through multiple steps in order to update/edit information. It would be more
+        modern to just make it similar to how Google docs are where I can edit and autosave in
+        real time.
+      </p>
+      <img src="assets/img/treasuredata_screens/companyinfo3.png" width="700">
+      <p>
+        Company info screen with the fields filled out.
+      </p>
+      <img src="assets/img/treasuredata_screens/companyinfo4.png" width="700">
+      <p>
+        Elements on the screen are shifted to the left when I open up my notes. Here I
+        can add notes about the company such as company size, mission, perks, etc.
+      </p>
+
+      <h3>Interviewer Info</h3>
+      <img src="assets/img/treasuredata_screens/interviewerinfo1.png" width="700">
+      <p>
+        I originally only had the info of one interviewer on this screen, but I realized that
+        further along in the interview process I may have more than one interviewer, so I added
+        the ability to toggle between different interviewers. (use case 4)
+      </p>
+      <img src="assets/img/treasuredata_screens/interviewerinfo2.png" width="700">
+      <p>
+        Here I can add questions I would like to ask during the interview.
+      </p>
+
+      <h3>Rating</h3>
+      <img src="assets/img/treasuredata_screens/rating1.png" width="700">
+      <p>
+        These are my personal rating criteria. I can adjust the rating by dragging the knob along
+        the slider (use case 8). I made the slider go from 1 to 10 to allow for half stars. (The
+        overview page shows the overall rating out of five stars).
+      </p>
+      <img src="assets/img/treasuredata_screens/rating2.png" width="700">
+      <p>
+        If I want to add more personal rating criteria, I can click on the star icon on the right nav,
+        and this will add that rating criteria to all active jobs.
+      </p>
+      <img src="assets/img/treasuredata_screens/rating3.png" width="700">
+      <p>
+        Deleting a rating criteria on a specific job's rating page would delete it on all the rating tabs
+        of each active job, so a modal would pop up to confirm that I really want to delete it.
+        <br>
+        <br>
+        <strong>Feedback:</strong>
+        <br>
+        It's too easy to perform this delete action which will delete the criteria
+        across all active jobs. This delete action would be better suited maybe in the settings.
+      </p>
+
+      <h3>Design Exercise</h3>
+      <img src="assets/img/treasuredata_screens/designexercise.png" width="700">
+      <p>
+        Here I can input the instructions for the design exercise if I receive one, and the
+        area underneath allows me to upload or drag and drop files/screenshots related to the
+        design exercise (use case 6).
+      </p>
+
+      <h3>Tasks</h3>
+      <img src="assets/img/treasuredata_screens/tasks1.png" width="700">
+      <p>
+        I just made the tasks look like a simple to-do list with checkboxes next to each task which
+        I can check off as I complete each task. I originally wanted the task to be crossed out once
+        the checkbox is checked, but I decided I still wanted to be able to read what the completed
+        task was.
+      </p>
+      <img src="assets/img/treasuredata_screens/tasks2.png" width="700">
+      <p>
+        Here I can add a new task.
+      </p>
+
+      <br>
+      <br>
+      <strong>Overall Feedback:</strong>
+      <br>
+      <p>
+        Could use improvement on visual design or make use of UI kits. Be more consistent about button
+        placement. Design techniques also need improvement. I started doing <a href="https://www.dailyui.co/" target="_blank">Daily UI Challenges</a>
+        in order to get more practice with visual design and hopefully improve my design technique as well.
+        Check out my <a href="dailyui.html">"Daily UI" tab</a> to see my progress on that!
+      </p>
+
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="bottomnav">
+      <a href="fitpact.html">FitPact</a>
+      <a href="citypups.html">CityPups</a>
+      <a href="multimeet.html">MultiMeet</a>
+      <a class="active" href="treasuredata.html">Treasure Data</a>
+      <a href="dailyui.html">Daily UI</a>
+    </div>
+
+    <div class="sig">
+      Designed and coded by Nancy Chang :)
+    </div>
+
+  </body>
+
+  <script src="assets/js/script.js"></script>
+
+</html>
