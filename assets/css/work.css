@@ -95,13 +95,20 @@ button {
 }
 
 button:hover {
-  opacity: 0.5;
+  background-color: #ef434d;
 }
 
 #projects {
   text-align: center;
   display: inline-block;
-  margin-top: 30%;
+  margin-top: 45%;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+}
+
+#projects h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
 }
 
 .col {
@@ -109,16 +116,16 @@ button:hover {
 }
 
 .item img {
-  width: 500px;
-  margin: 64px;
+  width: 550px;
+  margin:16px;
   display: block;
-  height: 334px;
-  border-radius: 25px;
+  /* height: 334px; */
+  /* border-radius: 25px; */
 }
 
 .item {
   position: relative;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .overlay {
@@ -127,12 +134,13 @@ button:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 500px;
-  margin-left: 64px;
+  width: 550px;
+  /* height: 334px; */
+  margin-left: 16px;
   opacity: 0;
   transition: .5s ease;
   background-color: #333333;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 .item:hover .overlay {
@@ -161,10 +169,10 @@ button:hover {
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:600); */
 
 .about-me {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 40px;
 }
@@ -177,17 +185,45 @@ button:hover {
   margin-right: 64px;
   margin-bottom: 64px;
   margin-top: 144px;
+  display: flex;
 }
 
 .about-me p {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 64px;
-  margin-top: 128px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #333333;
 }
 
 .about-me img {
   border-radius: 50%;
+}
+
+.about-me #left {
+  width: 50%;
+}
+
+.about-me #left {
+  position: relative;
+  display: inline-block;
+}
+
+.about-me #left .top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.about-me #left:hover .top {
+  display: inline;
+}
+
+.about-me #right {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 64px;
+  margin-top: 128px;
 }
 
 #word {
