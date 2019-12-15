@@ -78,8 +78,14 @@ small {
 
 .title {
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  margin-left: 18vw;
+  color: #b8e2f2;
+  margin-left: 12vw;
+  letter-spacing: 0.3em;
+  margin-bottom: 4vw;
+}
+
+.title-caption {
+  color: #aaaaaa;
 }
 
 .title p {
@@ -88,28 +94,68 @@ small {
 }
 
 .title h1 {
-  font-size: 2.3vw;
+  font-size: 2.5vw;
 }
 
-#banner {
-  text-align: center;
-}
-
-#banner img {
-  display: inline-block;
-}
-
-.banner-responsive {
-  width: 63%;
-  height: auto;
-}
-
-#blurb {
-  text-align: center;
+.section {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 4.6vw;
-  color: #6F8CFF;
-  font-size: 1.3vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  display: flex;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+#problem h2, #solution h2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#problem {
+  width: 60%;
+}
+
+#solution {
+  margin-top: 0px;
+  padding-left: 16px;
+}
+
+.section-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  text-align: left;
+}
+
+.section-caption p {
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.section-caption h2 {
+  color: #b8e2f2;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  text-align: left;
+  width: 50%;
+  margin-left: 16px;
+}
+
+#spoiler {
+  color: #d8d8d8;
+  display: inline-block;
 }
 
 hr {
@@ -120,36 +166,44 @@ hr {
   margin-bottom: 4.6vw;
 }
 
-#overview {
-  font-family: 'Roboto', sans-serif;
-  color: #333333;
+#stat {
   text-align: center;
 }
 
-#overview-body {
+#stat img {
   display: inline-block;
 }
 
-#overview h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.3vw;
+.stat-responsive {
+  width: 35%;
+  height: auto;
 }
 
-#overview ul {
-  line-height: 2;
-  font-size: 1.3vw;
-  text-align: left;
+.role-responsive {
+  width: 100%;
+  height: auto;
 }
 
-#overview a:link, a:visited {
-  background-color: white;
-  color: #333333;
-  text-decoration: none;
+#myrole-pic img {
+  border-radius: 50%;
 }
 
-#overview a:hover {
-  color: #979797;
+#myrole {
+  width: 150%;
+  margin-top: 5vw;
+  margin-left: 3vw;
+}
+
+.empathy-responsive {
+  width: 55%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.persona-responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
 .casestudy {
@@ -162,74 +216,16 @@ hr {
   font-size: 1.3vw;
 }
 
-#intro {
-  text-align: center;
-}
-
-#intro-body {
-  display: inline-block;
-  text-align: left;
-}
-
-#intro h1 {
+#research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #FF8B6F;
   font-size: 2.3vw;
 }
 
-#intro i strong {
-  font-family: 'Montserrat', sans-serif;
-  color: #6F8CFF;
-}
-
-#intro a {
-  color: #6F8CFF;
-}
-
-#stat {
-  text-align: center;
-}
-
-#stat img {
-  display: inline-block;
-}
-
-.stat-responsive {
-  width: 75%;
-  height: auto;
-}
-
-#problem h1, #solution h1, #myrole h1, #research h1, #infoarch h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #finalwords h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #FF8B6F;
-  font-size: 2.3vw;
-}
-
-#problem strong, #myrole strong, #research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
+#research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
   color: #6F8CFF;
   font-family: 'Montserrat', sans-serif;
-}
-
-#myrole {
-  text-align: center;
-}
-
-#role-body {
-  display: inline-block;
-  text-align: left;
-}
-
-.role-responsive {
-  width: 30%;
-  height: auto;
-}
-
-#myrole-pic img {
-  border-radius: 50%;
-  float: left;
-  margin-right: 4.6vw;
 }
 
 #research h2, #infoarch h2 {
@@ -280,11 +276,6 @@ hr {
   float: left;
 }
 
-.empathy-responsive {
-  width: 40%;
-  height: auto;
-}
-
 .empathy-text {
   text-align: left;
   float: right;
@@ -293,11 +284,6 @@ hr {
 
 .persona img {
   float: right;
-}
-
-.persona-responsive {
-  width: 60%;
-  height: auto;
 }
 
 .persona-text {
@@ -310,14 +296,20 @@ hr {
   margin-top: 1.6vw;
 }
 
-.sketch {
-  display: inline;
-  margin-left: 1.6vw;
+.sketch-responsive {
+  width: 35%;
+  height: auto;
+  margin: 16px;
 }
 
-.sketch-responsive {
-  width: 30%;
-  height: auto;
+.info-arch {
+  text-align: left;
+  display: flex;
+}
+
+.sketch-heading {
+  width: 25%;
+  margin-right: 128px;
 }
 
 .userflow-responsive {
@@ -331,63 +323,86 @@ hr {
 }
 
 .lofi-responsive {
-  width: 100%;
+  width: 75%;
   height: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .progress-responsive {
-  width: 50%;
+  width: 65%;
   height: auto;
+  display: inline-block;
 }
 
 .pact-responsive {
   width: 18%;
   height: auto;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav-responsive1 {
-  width: 40%;
+  width: 65%;
   height: auto;
 }
 
 .nav-responsive2 {
-  width: 25%;
+  width: 70%;
   height: auto;
 }
 
 .nav-responsive3 {
-  width: 25%;
+  width: 50%;
   height: auto;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .onboard-responsive1 {
-  width: 25%;
+  width: 20%;
   height: auto;
+  margin: 16px;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .onboard-responsive2 {
   width: 18%;
   height: auto;
+  margin: 8px;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search-responsive {
-  width: 25%;
+  width: 20%;
   height: auto;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nudge-responsive1 {
-  width: 25%;
+  width: 20%;
   height: auto;
 }
 
 .nudge-responsive2 {
-  width: 35%;
+  width: 30%;
   height: auto;
 }
 
 .mult-responsive {
-  width: 25%;
+  width: 20%;
   height: auto;
+  border-radius: 15px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .proto-responsive {
@@ -396,12 +411,16 @@ hr {
 }
 
 .findings-responsive {
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
 .prototype-screens, .lofi-screens {
   text-align: center;
+}
+
+.lofi-screens {
+  display: flex;
 }
 
 .row {
@@ -440,8 +459,12 @@ hr {
   text-align: center;
 }
 
-.progress-row, .pact-row, .onboard-row, .nav-row, .search-row, .nudge-row, .mult-row {
+.pact-row, .onboard-row, .search-row, .nudge-row, .mult-row {
   display: inline-block;
+}
+
+.nav-row {
+  display: flex;
 }
 
 .progress img, .pact img, .nav img, .nav2 img, .search img, .nudge img, .multpact img {
@@ -456,33 +479,39 @@ hr {
   margin-top: 2.3vw;
 }
 
-.pact, .nav2, .onboard, .search, .nudge, .multpact, .lofi {
+.pact, .nav2, .onboard, .search, .nudge, .multpact {
   display: inline;
 }
 
-.lofi {
-  width: 30%;
-  float: left;
-  margin: 0.5vw;
-}
-
 .screen {
-  width: 30%;
+  width: 22%;
   float: left;
   margin-left: 0.75vw;
   margin-right: 0.75vw;
+}
+
+.lofi {
+  padding-bottom: 16px;
 }
 
 .lofi-caption {
   width: 15vw;
   font-size: 0.75vw;
   color: #333333;
+  display: inline-block;
 }
 
 .proto-caption {
-  width: 15vw;
   font-size: 0.75vw;
   color: #333333;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.progress-row {
+  display: flex;
+  text-align: center;
 }
 
 #embed-proto {
