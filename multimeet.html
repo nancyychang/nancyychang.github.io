@@ -34,57 +34,41 @@
     </div>
 
     <div class="title">
-      <h1>MultiMeet Redesign UI/UX Case Study</h1>
-      <p>Schedule Optimization & Editing Web App
-        <br>
-      by Nancy Chang</p>
+      <h1>MULTIMEET UI/UX REDESIGN</h1>
+      <div class="title-caption">
+        SCHEDULE OPTIMIZATION & EDITING WEB APP
+      </div>
     </div>
 
     <div id="banner">
-      <img src="assets/img/multimeet_banner.png" width="900">
+      <img src="assets/img/multimeet_banner.png" class="banner-responsive">
     </div>
 
-    <div id="blurb">
+    <!-- <div id="blurb">
       <i>An automated theater scheduling tool for directors and stage managers</i>
+    </div> -->
+
+    <hr>
+
+    <h2>OVERVIEW</h2>
+    <div class="section">
+      <div class="left">
+        <ul>
+          <li><strong>Tools: </strong>Sketch, Adobe Illustrator, Principle</li>
+          <li><strong>Deliverables: </strong>UI/UX, Wireframing, Prototyping, User Testing</li>
+        </ul>
+      </div>
+
+      <div class="right">
+        MultiMeet is a <strong>scheduling platform</strong> (currently specific for the theater scene: stage managers and actors) that is able to handle mutually dependent events and prioritize events based on the rules and constraints entered by the user, generating an optimized schedule for all participants involved.
+      </div>
     </div>
 
     <hr>
 
-    <div id="overview">
-      <div id="overview-body">
-        <h1>Overview</h1>
-        <ul>
-          <li><a href="#intro">Introduction</a></li>
-          <li><a href="#problem">Problem</a></li>
-          <li><a href="#solution">Solution</a></li>
-          <li><a href="#myrole">My Role</a></li>
-          <li><a href="#research">Research: Understanding the User</a></li>
-          <li><a href="#brainstorm">Brainstorming & LoFi Mockups</a></li>
-          <li><a href="#wireframe">Wireframing</a></li>
-          <li><a href="#usertest">User Testing (Round 1)</a></li>
-          <li><a href="#prototype">Prototyping</a></li>
-          <li><a href="#iterate">Iterate</a></li>
-          <li><a href="#usertest2">User Testing (Round 2)</a></li>
-          <li><a href="#nextsteps">Next Steps</a></li>
-          <li><a href="#finalwords">Final Words</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="casestudy">
-      <a name="intro"></a>
-      <div id="intro">
-        <div id="intro-body">
-          <h1>What is MultiMeet?</h1>
-          <p>
-            MultiMeet is a <strong>scheduling platform</strong> (currently specific for the theater scene: stage managers and actors) that is able to handle mutually dependent events and prioritize events based on the rules and constraints entered by the user, generating an optimized schedule for all participants involved.
-          </p>
-        </div>
-      </div>
-
-      <a name="problem"></a>
-      <div id="problem">
-        <h1>What's the Problem?</h1>
+    <div class="section">
+      <div class="left" id="problem">
+        <h2>PROBLEM</h2>
         <p>
           Currently, scheduling is <strong>done by hand</strong> by the stage managers where they have to account for the actors’ external availabilities and make their rehearsal schedules as efficient as possible. This task can take a few hours to complete and is very tedious.
           <br>
@@ -92,409 +76,432 @@
         </p>
       </div>
 
-      <a name="solution"></a>
-      <div id="solution">
-        <h1>Here's My Solution</h1>
+      <div class="right" id="solution">
+        <h2>SOLUTION</h2>
         <p>
           I will be coming up with a user friendly design that allows users to be able to <strong>manually edit</strong> a MultiMeet generated schedule that allows them to view how <strong>efficiently</strong> everyone’s time is being used in order to make <strong>smart adjustments</strong>.
         </p>
       </div>
+    </div>
 
-      <hr>
+    <hr>
 
-      <a name="myrole"></a>
-      <div id="myrole">
-        <h1>My Role</h1>
-        <div id="role-body">
-          <div id="myrole-pic">
-            <img src="assets/img/myrolepic3.jpeg">
+    <h2>MY ROLE</h2>
+
+    <div class="section">
+      <div class="left" id="myrole-pic">
+        <img src="assets/img/myrolepic3.jpeg" class="role-responsive">
+      </div>
+
+      <div class="right" id="myrole">
+        My role in this project was to <strong>work with the founder</strong> of MultiMeet and <strong>redesign the editing feature</strong> of the scheduling platform by taking notes on data and feedback they already received from previous beta testing, brainstorming and wireframing potential solutions, and prototyping and testing designs with existing MultiMeet users.
+      </div>
+    </div>
+
+    <hr>
+
+    <h2>USERS WANTS & NEEDS</h2>
+
+    <div class="section">
+      Before diving into brainstorming solutions and sketching, I wanted to clarify and confirm what MultiMeet users would want
+      and need while editing their schedules. This is the list of requirements I organized after consulting with MultiMeet's founder:
+    </div>
+
+    <div class="section">
+      <ul>
+        <li>The current schedule</li>
+        <li>A list of rehearsals that are not yet scheduled</li>
+        <li>Information about who is needed for each rehearsal</li>
+        <li>Information about everyone's conflicts/availabilities</li>
+        <li>Ability to visualize the schedule from the perspective of an individual participant</li>
+        <li>Allow different variants of the schedule (e.g. ability to save or revert back to old versions)</li>
+        <li>Basic information of individual rehearsals (length, what is being rehearsed, etc.)</li>
+        <li>Information about who is needed for a particular rehearsal</li>
+        <li>Information about conflicts and availability affecting a particular rehearsal</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <h2>BRAINSTORMING & LOFI MOCKUPS</h2>
+
+    <div class="section">
+      Now that I had a better idea of what features were needed and what information needed to be accessible, I came up with three different designs. I presented these designs to the founder to see what he thought. After our meeting where we did a critique of each design and bounced ideas off of each other, the main takeaways I got were that:
+    </div>
+
+    <div class="section">
+      <ol>
+        <li>He <strong>liked</strong> that the user would be able to see the <strong>current and new schedules side by side</strong> as they made edits in design #1.</li>
+        <li>It’s nice to be able to see the conflicts and availabilities of each participant in a particular day and be able to see how the rehearsal to be rescheduled will affect each participant’s schedules as in design #2. However, he thought it made more sense to <strong>switch the axes of the times and actors</strong> aka have the times of the day listed vertically down the left side of the table and the actors listed horizontally across the top.</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <div class="left">
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstorm1.jpeg" width="400">
+          <div class="caption">
+            <p>Design #1 sketch</p>
           </div>
-          <p>
-            My role in this project was to <strong>work with the founder</strong> of MultiMeet and <strong>redesign the editing feature</strong> of the scheduling platform by taking notes on data and feedback they already received from previous beta testing, brainstorming and wireframing potential solutions, and prototyping and testing designs with existing MultiMeet users.
-          </p>
         </div>
-      </div>
 
-      <hr>
-
-      <a name="research"></a>
-      <div id="research">
-        <h1>User's Wants & Needs</h1>
-        <p>
-          Before diving into brainstorming solutions and sketching, I wanted to clarify and confirm what MultiMeet users would want
-          and need while editing their schedules. This is the list of requirements I organized after consulting with MultiMeet's founder:
-          <br>
-          <ul>
-            <li>The current schedule</li>
-            <li>A list of rehearsals that are not yet scheduled</li>
-            <li>Information about who is needed for each rehearsal</li>
-            <li>Information about everyone's conflicts/availabilities</li>
-            <li>Ability to visualize the schedule from the perspective of an individual participant</li>
-            <li>Allow different variants of the schedule (e.g. ability to save or revert back to old versions)</li>
-            <li>Basic information of individual rehearsals (length, what is being rehearsed, etc.)</li>
-            <li>Information about who is needed for a particular rehearsal</li>
-            <li>Information about conflicts and availability affecting a particular rehearsal</li>
-          </ul>
-        </p>
-      </div>
-
-      <hr>
-
-      <a name="brainstorm"></a>
-      <div id="brainstorm">
-        <h1>Brainstorming & LoFi Mockups</h1>
-        <p>
-          Now that I had a better idea of what features were needed and what information needed to be accessible, I came up with three different designs. I presented these designs to the founder to see what he thought. After our meeting where we did a critique of each design and bounced ideas off of each other, the main takeaways I got were that:
-        </p>
-        <ol>
-          <li>He <strong>liked</strong> that the user would be able to see the <strong>current and new schedules side by side</strong> as they made edits in design #1.</li>
-          <li>It’s nice to be able to see the conflicts and availabilities of each participant in a particular day and be able to see how the rehearsal to be rescheduled will affect each participant’s schedules as in design #2. However, he thought it made more sense to <strong>switch the axes of the times and actors</strong> aka have the times of the day listed vertically down the left side of the table and the actors listed horizontally across the top.</li>
-        </ol>
-
-        <div class="sketches">
-          <div class="sketch-row">
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstorm1.jpeg" width="700">
-              <div class="caption">
-                <p>Design #1 sketch</p>
-              </div>
-            </div>
-
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstormlofi1.png" width="700">
-              <div class="caption">
-                <p>Design #1 low fidelity mockup</p>
-              </div>
-            </div>
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstorm2.jpeg" width="400" height="430">
+          <div class="caption">
+            <p>Design #2 sketch</p>
           </div>
+        </div>
 
-          <div class="sketch-row">
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstorm2.jpeg" width="700">
-              <div class="caption">
-                <p>Design #2 sketch</p>
-              </div>
-            </div>
-
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstormlofi2.png" width="700">
-              <div class="caption">
-                <p>Design #2 low fidelity mockup</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="sketch-row">
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstorm3.jpeg" width="700">
-              <div class="caption">
-                <p>Design #3 sketch</p>
-              </div>
-            </div>
-
-            <div class="sketch">
-              <img src="assets/img/multimeet_brainstormlofi3.png" width="700">
-              <div class="caption">
-                <p>Design #3 low fidelity mockup</p>
-              </div>
-            </div>
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstorm3.jpeg" width="400" height="430">
+          <div class="caption">
+            <p>Design #3 sketch</p>
           </div>
         </div>
       </div>
 
-      <hr>
-
-      <a name="wireframe"></a>
-      <div id="wireframe">
-        <h1>Wireframing</h1>
-        <video width="700" controls>
-          <source src="assets/img/multimeet_lofiprototype.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-
-        <div class="caption">
-          <p>Video of low fidelity interactive prototype</p>
+      <div class="right">
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstormlofi1.png" class="lofi" height="430">
+          <div class="caption">
+            <p>Design #1 low fidelity mockup</p>
+          </div>
         </div>
 
-        <div class="lofi-screens">
-          <div class="row">
-            <div class="lofi">
-              <img src="assets/img/multimeet_wireframe1.png" width="700">
-              <div class="caption">
-                <p>Side by side calendars of current schedule and new schedule before any edits are made.</p>
-              </div>
-            </div>
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstormlofi2.png" class="lofi" height="430">
+          <div class="caption">
+            <p>Design #2 low fidelity mockup</p>
+          </div>
+        </div>
 
-            <div class="lofi">
-              <img src="assets/img/multimeet_wireframe2.png" width="700">
-              <div class="caption">
-                <p>Availabilities are shown for the rehearsal that is selected.</p>
-              </div>
-            </div>
+        <div class="sketch">
+          <img src="assets/img/multimeet_brainstormlofi3.png" class="lofi" height="430">
+          <div class="caption">
+            <p>Design #3 low fidelity mockup</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <div class="lofi">
-              <img src="assets/img/multimeet_wireframe3.png" width="700">
-              <div class="caption">
-                <p>You can view rehearsal details and see who's available and who's not by hovering over the rehearsal or available time slot.</p>
-              </div>
-            </div>
+    <hr>
 
-            <div class="lofi">
-              <img src="assets/img/multimeet_wireframe4.png" width="700">
-              <div class="caption">
-                <p>After dragging a rehearsal into a particular day, you can see the schedules of each rehearsal participant. You can drag the colored tab to further adjust the rehearsal.</p>
-              </div>
-            </div>
+    <h2>WIREFRAMING</h2>
+
+    <div id="wireframe-video">
+      <video width="700" controls>
+        <source src="assets/img/multimeet_lofiprototype.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="caption">
+        <p>Video of low fidelity interactive prototype</p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="section">
+      <div class="left">
+        <div class="mockup">
+          <img src="assets/img/multimeet_wireframe1.png" class="lofi" width="500">
+          <div class="caption">
+            <p>Side by side calendars of current schedule and new schedule before any edits are made.</p>
+          </div>
+        </div>
+
+        <div class="mockup">
+          <img src="assets/img/multimeet_wireframe3.png" class="lofi" width="500">
+          <div class="caption">
+            <p>You can view rehearsal details and see who's available and who's not by hovering over the rehearsal or available time slot.</p>
           </div>
         </div>
       </div>
 
-      <hr>
-
-      <a name="prototype"></a>
-      <div id="prototype">
-        <h1>Prototyping</h1>
-
-        <video width="700" controls>
-          <source src="assets/img/multimeet_hifiprototype.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-
-        <div class="caption">
-          <p>Video of interactive prototype in higher fidelity with relevant rehearsal participants highlighted by surrounding with teal box.</p>
+      <div class="right">
+        <div class="mockup">
+          <img src="assets/img/multimeet_wireframe2.png" class="lofi" width="500">
+          <div class="caption">
+            <p>Availabilities are shown for the rehearsal that is selected.</p>
+          </div>
         </div>
 
-        <div class="prototype-screens">
-          <div class="row">
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype1.png" width="700">
-              <div class="caption">
-                <p>Initial edit mode screen only shows one calendar (the current schedule).</p>
-              </div>
-            </div>
+        <div class="mockup">
+          <img src="assets/img/multimeet_wireframe4.png" class="lofi" width="500">
+          <div class="caption">
+            <p>After dragging a rehearsal into a particular day, you can see the schedules of each rehearsal participant. You can drag the colored tab to further adjust the rehearsal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype2.png" width="700">
-              <div class="caption">
-                <p>Second calendar with availabilities only shows up when you click on a rehearsal you want to reschedule.</p>
-              </div>
-            </div>
+    <hr>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype3.png" width="700">
-              <div class="caption">
-                <p>Once a rehearsal is dragged into a specific day, you are shown the schedule of that day with the relevant participants
-                highlighted by surrounding their schedules with a teal box.</p>
-              </div>
-            </div>
+    <h2>PROTOTYPING</h2>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype4.png" width="700">
-              <div class="caption">
-                <p>Once you decide when you want to reschedule the rehearsal to, drop it into the desired time slot and the rehearsal will be added to
-                  the schedules of all participants needed for that rehearsal.
-                </p>
-              </div>
-            </div>
+    <div id="prototype-video">
+      <video width="700" controls>
+        <source src="assets/img/multimeet_hifiprototype.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype5.png" width="700">
-              <div class="caption">
-                <p>If you want to keep editing other rehearsals, just click on them to drag.</p>
-              </div>
-            </div>
+      <div class="caption">
+        <p>Video of interactive prototype in higher fidelity with relevant rehearsal participants highlighted by surrounding with teal box.</p>
+      </div>
+    </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype6.png" width="700">
-              <div class="caption">
-                <p>Drag to the square in the upper left corner if you want to reschedule it to a different day.</p>
-              </div>
-            </div>
+    <br>
+    <br>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_prototype7.png" width="700">
-              <div class="caption">
-                <p>You will be shown side by side calendars again with the availabilities for this rehearsal.</p>
-              </div>
-            </div>
+    <div class="section">
+      <div class="left">
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype1.png" class="proto" width="500">
+          <div class="caption">
+            <p>Initial edit mode screen only shows one calendar (the current schedule).</p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype3.png" class="proto" width="500">
+          <div class="caption">
+            <p>Once a rehearsal is dragged into a specific day, you are shown the schedule of that day with the relevant participants
+            highlighted by surrounding their schedules with a teal box.</p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype5.png" class="proto" width="500">
+          <div class="caption">
+            <p>If you want to keep editing other rehearsals, just click on them to drag.</p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype7.png" class="proto" width="500">
+          <div class="caption">
+            <p>You will be shown side by side calendars again with the availabilities for this rehearsal.</p>
           </div>
         </div>
       </div>
 
-      <hr>
-
-      <a name="usertest"></a>
-      <div id="usertest">
-        <h1>First Round of User Testing</h1>
-        <p>
-          <strong>About the user:</strong>
-          <br>
-          She has worked as a stage manager on several Shakespeare productions (Hamlet, The Taming of the Shrew, King John) and shares the pain points of having to tediously construct schedules manually using Excel spreadsheets. She is also familiar with the early stages of MultiMeet.
-        </p>
-
-        <ul>
-          <li>Text is really small/hard to read</li>
-          <li>Was not sure if lighter or darker colors were "better" in terms of <strong>availability</strong> (eventually concluded that darker was better)</li>
-          <li>Immediately deduced that in order to reschedule an event, you could click on it and drag it around (because it's similar to how Google calendar works)</li>
-          <li>Thought the <strong>"undo" button</strong> would act like a "back" button and bring the user back to the previous page they were on</li>
-          <li>Might be <strong>more intuitive if</strong> there was <strong>only one calendar</strong> instead of having a "current" and "new" because user was unsure if they were supposed to reschedule event by dropping it into the current calendar or new calendar</li>
-          <li>Would like to be able to easily switch between days with similar participant availabilities to see how well the event would fit in each day before finalizing the reschedule</li>
-          <li>If there are many people needed for an event, it might be annoying to have to continuously scroll left and right in order to view everyone's availabilities</li>
-          <li>Suggestion: <strong>collapse/condense the table</strong> by representing each participant by their initials</li>
-          <li>Maybe also include in the tab that states the sum total of conflicts there are as you drag the event up and down along the schedule</li>
-          <li>Would like to be able to click on events under "unscheduled" to see available times in the calendar and drag and drop those events into the calendar as well</li>
-          <li>Interesting idea: ability to select a block of time and be given suggestions for what events could be placed there given participants' availabilities</li>
-        </ul>
-      </div>
-
-      <hr>
-
-      <a name="iterate"></a>
-      <div id="iterate">
-        <h1>Iterate</h1>
-        <video width="700" controls>
-          <source src="assets/img/multimeet_finalprototype.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-
-        <div class="caption">
-          <p>Video of high fidelity interactive prototype. Helper text added on screens to further clarify what action is expected of the user.</p>
+      <div class="right">
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype2.png" class="proto" width="500">
+          <div class="caption">
+            <p>Calendar with availabilities shows up when you click on a rehearsal to reschedule.</p>
+          </div>
         </div>
 
-        <div class="hifi-screens">
-          <div class="row">
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi1.png" width="700">
-              <div class="caption">
-                <p>Initial edit mode screen. In retrospect, I could have made the calendar dimensions larger to fill up the extra white space on the screen,
-                which would have also let me increase the text size for better visibility.</p>
-              </div>
-            </div>
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype4.png" class="proto" width="500">
+          <div class="caption">
+            <p>Once you decide when you want to reschedule the rehearsal to, drop it into the desired time slot and the rehearsal will be added to
+              the schedules of all participants needed for that rehearsal.
+            </p>
+          </div>
+        </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi2.png" width="700">
-              <div class="caption">
-                <p>Clicking on a rehearsal shows its availabilities on the same calendar rather than another calendar side by side and grays out all the other rehearsals.
-                I also included a legend that specifies that the darker the shade means more people are available during that time slot and the lighter the shade means fewer
-              people are available since there was a bit of confusion.</p>
-              </div>
-            </div>
+        <div class="screen">
+          <img src="assets/img/multimeet_prototype6.png" class="proto" width="500">
+          <div class="caption">
+            <p>Drag to the square in the upper left corner if you want to reschedule it to a different day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi3.png" width="700">
-              <div class="caption">
-                <p>I added more detail about the rehearsal that is being rescheduled in the rescheduling tab to include when, for what, for how long, and who is and isn't available during
-                that time. I also added a handle using a cluster of eight small squares and arrows pointing up and down to really emphasize that the rescheduling tab is something you can drag
-              vertically.</p>
-              </div>
-            </div>
+    <hr>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi4.png" width="700">
-              <div class="caption">
-                <p>If you try to click on the rescheduling tab instead of dragging it, the rescheduling tab will shift slightly to the left and up and have a drop shadow to further
-                emphasize that this is an element that is separate from other elements on the screen and can be moved around.</p>
-              </div>
-            </div>
+    <h2>USER TESTING (FIRST ROUND)</h2>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi5.png" width="700">
-              <div class="caption">
-                <p>Each rehearsal participant was reduced from their profile pictures and their names and characters to just their profile pictures/avatars, and if you want to be reminded
-                who the profile picture/avatar represents, you can hover over it to reveal a tooltip with their names/characters.</p>
-              </div>
-            </div>
+    <div class="section">
+      <p>
+        <strong>About the user:</strong>
+        <br>
+        She has worked as a stage manager on several Shakespeare productions (Hamlet, The Taming of the Shrew, King John) and shares the pain points of having to tediously construct schedules manually using Excel spreadsheets. She is also familiar with the early stages of MultiMeet.
+      </p>
+    </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi6.png" width="700">
-              <div class="caption">
-                <p>You can also click on the button "Hide Calendar" to hide the calendar and have the day schedule fill up more of the screen.</p>
-              </div>
-            </div>
+    <div class="section">
+      <ul>
+        <li>Text is really small/hard to read</li>
+        <li>Was not sure if lighter or darker colors were "better" in terms of <strong>availability</strong> (eventually concluded that darker was better)</li>
+        <li>Immediately deduced that in order to reschedule an event, you could click on it and drag it around (because it's similar to how Google calendar works)</li>
+        <li>Thought the <strong>"undo" button</strong> would act like a "back" button and bring the user back to the previous page they were on</li>
+        <li>Might be <strong>more intuitive if</strong> there was <strong>only one calendar</strong> instead of having a "current" and "new" because user was unsure if they were supposed to reschedule event by dropping it into the current calendar or new calendar</li>
+        <li>Would like to be able to easily switch between days with similar participant availabilities to see how well the event would fit in each day before finalizing the reschedule</li>
+        <li>If there are many people needed for an event, it might be annoying to have to continuously scroll left and right in order to view everyone's availabilities</li>
+        <li>Suggestion: <strong>collapse/condense the table</strong> by representing each participant by their initials</li>
+        <li>Maybe also include in the tab that states the sum total of conflicts there are as you drag the event up and down along the schedule</li>
+        <li>Would like to be able to click on events under "unscheduled" to see available times in the calendar and drag and drop those events into the calendar as well</li>
+        <li>Interesting idea: ability to select a block of time and be given suggestions for what events could be placed there given participants' availabilities</li>
+      </ul>
+    </div>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi7.png" width="700">
-              <div class="caption">
-                <p>You can click on and drag another rehearsal to reschedule.</p>
-              </div>
-            </div>
+    <hr>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi8.png" width="700">
-              <div class="caption">
-                <p>As you can see, the relevant participants of this rehearsal have been shifted to the front of the table, and the particpants who aren't
-                needed for this rehearsal are grayed out.</p>
-              </div>
-            </div>
+    <h2>ITERATE</h2>
 
-            <div class="screen">
-              <img src="assets/img/multimeet_hifi9.png" width="700">
-              <div class="caption">
-                <p>You can see the rehearsal's availabilities in the calendar above. If you want to reschedule it to a different day, just simply drag it to the
-                day you prefer in the calendar. I've also removed the "Save & Invite" button to avoid confusion because you shouldn't be able to save or invite
-              anyone to an invite before you have finalized your edits.</p>
-              </div>
-            </div>
+    <div id="iterate-video">
+      <video width="700" controls>
+        <source src="assets/img/multimeet_finalprototype.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="caption">
+        <p>Video of high fidelity interactive prototype. Helper text added on screens to further clarify what action is expected of the user.</p>
+      </div>
+    </div>
+
+      <br>
+      <br>
+
+    <div class="section">
+      <div class="left">
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi1.png" class="hifi" width="500">
+          <div class="caption">
+            <p>
+              Initial edit mode screen. In retrospect, I could have made the calendar dimensions larger to fill up the extra white space on the screen,
+              which would have also let me increase the text size for better accessibility. I also added helper text on this screen and others to clarify
+              what action the user should perform.
+            </p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi3.png" class="hifi" width="500">
+          <div class="caption">
+            <p>
+              Added more detail about the rehearsal being rescheduled in the rescheduling tab (when, for what, for how long, and who is and isn't available during
+            that time). I also added a handle using a cluster of eight small squares and arrows pointing up and down to really emphasize that the rescheduling tab is something you can drag
+          vertically.
+            </p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi5.png" class="hifi" width="500">
+          <div class="caption">
+            <p>
+              Each rehearsal participant was reduced to just their avatars. If you want to be reminded who the avatar represents,
+              you can hover over it to reveal a tooltip with their names/characters.
+            </p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi7.png" class="hifi" width="500">
+          <div class="caption">
+            <p>You can click on and drag another rehearsal to reschedule.</p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi9.png" class="hifi" width="500">
+          <div class="caption">
+            <p>You can see the rehearsal's availabilities in the calendar above. If you want to reschedule it to a different day, just simply drag it to the
+            day you prefer in the calendar. I've also removed the "Save & Invite" button to avoid confusion because you shouldn't be able to save or invite
+          anyone to an invite before you have finalized your edits.</p>
           </div>
         </div>
       </div>
 
-      <hr>
+      <div class="right">
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi2.png" class="hifi" width="500">
+          <div class="caption">
+            <p>Clicking on a rehearsal shows its availabilities on the same calendar rather than another calendar side by side and grays out all the other rehearsals.
+            I added a legend that specifies the darker shading to mean more people are available during that time slot and lighter shading to mean fewer
+          people are available since there was confusion.</p>
+          </div>
+        </div>
 
-      <a name="usertest2"></a>
-      <div id="usertest2">
-        <h1>Second Round of User Testing</h1>
-        <p>
-          <strong>About the user:</strong>
-          <br>
-          She works as a stage manager and is an existing user of MultiMeet. She specifically mentioned wanting an edit feature during the initial beta tests, which was why she was selected for this user test.
-        </p>
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi4.png" class="hifi" width="500">
+          <div class="caption">
+            <p>If you try to click on the rescheduling tab instead of dragging it, the rescheduling tab will shift slightly to the left and up and have a drop shadow to further
+            emphasize that this is an element that is separate from other elements on the screen and can be moved around.</p>
+          </div>
+        </div>
 
-        <ul>
-          <li>It would be helpful to have a <strong>legend</strong> explaining the different shades of color indicating <strong>availabilities</strong></li>
-          <li><strong>“Save & Invite” button</strong> should be <strong>disabled</strong> while in the editing mode</li>
-          <li>Separate the “Save” and “Invite” actions</li>
-          <li>Indicate rehearsal’s original time before edit is finalized</li>
-          <li>Don’t show unscheduled rehearsals if they’re not clickable</li>
-          <li>Show that the <strong>rescheduling tab</strong> is <strong>draggable</strong></li>
-          <li>User likes being able to see both the month and specific day schedule at the same time but could make calendar minimizable to allow more space for day</li>
-        </ul>
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi6.png" class="hifi" width="500">
+          <div class="caption">
+            <p>
+              You can also click on the button "Hide Calendar" to hide the calendar and have the schedule of that particular day fill up more of the screen.
+              The "Hide Calendar" button becomes a "Show Calendar" button.
+            </p>
+          </div>
+        </div>
+
+        <div class="screen">
+          <img src="assets/img/multimeet_hifi8.png" class="hifi" width="500">
+          <div class="caption">
+            <p>As you can see, the relevant participants of this rehearsal have been shifted to the front of the table, and the particpants who aren't
+            needed for this rehearsal are grayed out.</p>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <hr>
+    <hr>
 
-      <a name="nextsteps"></a>
-      <div id="nextsteps">
-        <h1>Potential Next Steps for MultiMeet</h1>
+    <h2>USER TESTING (SECOND ROUND)</h2>
 
-        <ul>
-          <li>Increase text size for better overall visibility</li>
-          <li>Add back button for if the user wants to exit out of the edit mode</li>
-          <li>Brainstorm more improved solutions for condensing rehearsal participants</li>
-        </ul>
-      </div>
+    <div class="section">
+      <p>
+        <strong>About the user:</strong>
+        <br>
+        She works as a stage manager and is an existing user of MultiMeet. She specifically mentioned wanting an edit feature during the initial beta tests, which was why she was selected for this user test.
+      </p>
+    </div>
 
-      <hr>
+    <div class="section">
+      <ul>
+        <li>It would be helpful to have a <strong>legend</strong> explaining the different shades of color indicating <strong>availabilities</strong></li>
+        <li><strong>“Save & Invite” button</strong> should be <strong>disabled</strong> while in the editing mode</li>
+        <li>Separate the “Save” and “Invite” actions</li>
+        <li>Indicate rehearsal’s original time before edit is finalized</li>
+        <li>Don’t show unscheduled rehearsals if they’re not clickable</li>
+        <li>Show that the <strong>rescheduling tab</strong> is <strong>draggable</strong></li>
+        <li>User likes being able to see both the month and specific day schedule at the same time but could make calendar minimizable to allow more space for day</li>
+      </ul>
+    </div>
 
-      <a name="finalwords"></a>
-      <div id="finalwords">
-        <h1>What I Learned</h1>
-        <p>
-          This was my first time working on a product for an <strong>unfamiliar field</strong>! I had to learn about all the little nuances and unique frustrations stage managers had to deal with while trying to create a rehearsal schedule that is suitable for all participants involved in the play. This was a very fun and educational experience for me because I <strong>really had to listen to the wants and needs of the users</strong> and figure out how to design to tackle their problem since I didn’t have personal experience with stage management to draw from.
-          <br>
-          <br>
-          I also had the opportunity to work with the founder of the product and learned how to <strong>balance what the founder wanted</strong> out of the redesign <strong>with what the users told me they wanted</strong> from the feedback they gave me during user tests.
-          <br>
-          <br>
-          I also learned a lot about the <strong>pros and cons of</strong> incorporating a <strong>disabled button</strong> in the UI. Disabled buttons are generally bad due to its low accessiblity, and they give little to no feedback when a user clicks on it and nothing happens. A disabled button could be useful to indicate that there is more work to be done on the screen and could give an informative error message if a user tries to click on it before completing all necessary actions.
-          <br>
-          <br>
-          In addition to learning about the design of disabled buttons, I also learned how to add <strong>indicators</strong> to my design <strong>to show that something is draggable</strong> by adding handles, arrows, shadows, and shifting the element slightly to show that it is something that can be moved around.
-          <br>
-          <br>
-          I hope my redesign of the MultiMeet edit feature helps the future design direction of MultiMeet and can’t wait to see how it grows!
-        </p>
-      </div>
+    <hr>
+
+    <h2>POTENTIAL NEXT STEPS FOR MULTIMEET</h2>
+
+    <div class="section">
+      <ul>
+        <li>Increase text size for better overall visibility</li>
+        <li>Add back button for if the user wants to exit out of the edit mode</li>
+        <li>Brainstorm more improved solutions for condensing rehearsal participants</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <h2>WHAT I LEARNED</h2>
+
+    <div class="section">
+      <p>
+        This was my first time working on a product for an <strong>unfamiliar field</strong>! I had to learn about all the little nuances and unique frustrations stage managers had to deal with while trying to create a rehearsal schedule that is suitable for all participants involved in the play. This was a very fun and educational experience for me because I <strong>really had to listen to the wants and needs of the users</strong> and figure out how to design to tackle their problem since I didn’t have personal experience with stage management to draw from.
+        <br>
+        <br>
+        I also had the opportunity to work with the founder of the product and learned how to <strong>balance what the founder wanted</strong> out of the redesign <strong>with what the users told me they wanted</strong> from the feedback they gave me during user tests.
+        <br>
+        <br>
+        I also learned a lot about the <strong>pros and cons of</strong> incorporating a <strong>disabled button</strong> in the UI. Disabled buttons are generally bad due to its low accessiblity, and they give little to no feedback when a user clicks on it and nothing happens. A disabled button could be useful to indicate that there is more work to be done on the screen and could give an informative error message if a user tries to click on it before completing all necessary actions.
+        <br>
+        <br>
+        In addition to learning about the design of disabled buttons, I also learned how to add <strong>indicators</strong> to my design <strong>to show that something is draggable</strong> by adding handles, arrows, shadows, and shifting the element slightly to show that it is something that can be moved around.
+        <br>
+        <br>
+        I hope my redesign of the MultiMeet edit feature helps the future design direction of MultiMeet and can’t wait to see how it grows!
+      </p>
     </div>
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
