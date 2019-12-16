@@ -1,0 +1,282 @@
+body {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+#logo, #name, .navbar {
+  display: inline-flex;
+}
+
+#logo {
+  margin-left: 2.3vw;
+  margin-top: 2.3vw;
+}
+
+.logo-responsive {
+  width: 3%;
+  height: auto;
+}
+
+#name {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+#name a:link, a:visited {
+  background-color: white;
+  color: #333333;
+  text-decoration: none;
+}
+
+#name a:hover {
+  color: #b8e2f2;
+}
+
+small {
+  font-size: 1.3vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin-top: 3vw;
+  float: right;
+}
+
+.navbar a {
+  color: #333333;
+  text-align: center;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8vw;
+}
+
+.navbar a:hover {
+  color: #979797;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #b8e2f2;
+  margin-left: 12vw;
+  letter-spacing: 0.3em;
+  margin-bottom: 4vw;
+}
+
+.title-caption {
+  color: #aaaaaa;
+}
+
+.ui {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}
+
+.section {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h2, h2.section-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+h2.section-caption {
+  color: #b8e2f2;
+}
+
+#problem h2, #myrole h2 {
+  margin-left: 0px;
+}
+
+#problem {
+  margin-right: 48px;
+}
+
+hr {
+  align: center;
+  size: 4px;
+  width: 50%;
+  margin-top: 4.6vw;
+  margin-bottom: 4.6vw;
+}
+
+.body {
+  display: inline-block;
+}
+
+.body h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A038FF;
+  font-size: 2.3vw;
+}
+
+.body h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 2vw;
+}
+
+#research h1, #brainstorm h1, #storyboard h1, #prototype h1, #usertest h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A038FF;
+  font-size: 2.3vw;
+}
+
+#usertest h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 2vw;
+}
+
+#research h4, #brainstorm h4, #usertest h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #C3BEF7;
+  font-size: 1.3vw;
+}
+
+#approach h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333333;
+  font-size: 2.3vw;
+}
+
+#overview a:link, a:visited {
+  background-color: white;
+  color: #333333;
+  text-decoration: none;
+}
+
+#overview a:hover {
+  color: #979797;
+}
+
+#prototype-video {
+  text-align: center;
+}
+
+video {
+  display: inline-block;
+
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#userflow, #story, #proto-screens {
+  text-align: center;
+}
+
+#userflow img, #story img, #proto-screens img {
+  display: inline-block;
+}
+
+#userflow-caption {
+  font-size: 1vw;
+}
+
+.userflow-responsive, .storyboard-responsive, .proto-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.proto-responsive {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#filled {
+  margin-top: 217px;
+}
+
+.screen {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caption {
+  font-size: 1vw;
+  color: #333333;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1vw; /* Place the button at the bottom of the page */
+  right: 2vw; /* Place the button 2vw from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #b8e2f2; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1vw; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2vw; /* Increase font size */
+  margin-bottom: 2.3vw;
+  margin-right: 2.3vw;
+}
+
+#myBtn:hover {
+  background-color: #EF434D;
+}
+
+.bottomnav {
+  text-align: center;
+  margin-top: 2.3vw;
+}
+
+.bottomnav a {
+  color: #979797;
+  display: inline-block;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6vw;
+}
+
+.bottomnav a:hover {
+  color: #333333;
+}
+
+.bottomnav a.active {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.sig {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  margin-bottom: 2.3vw;
+}
