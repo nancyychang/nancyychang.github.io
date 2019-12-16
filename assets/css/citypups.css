@@ -74,17 +74,14 @@ small {
 
 .title {
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  margin-left: 18vw;
+  color: #b8e2f2;
+  margin-left: 12vw;
+  letter-spacing: 0.3em;
+  margin-bottom: 4vw;
 }
 
-.title p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1vw;
-}
-
-.title h1 {
-  font-size: 2.3vw;
+.title-caption {
+  color: #aaaaaa;
 }
 
 #banner {
@@ -96,16 +93,47 @@ small {
 }
 
 .banner-responsive {
-  width: 63%;
+  width: 60%;
   height: auto;
 }
 
-#blurb {
-  text-align: center;
+.section {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 4.6vw;
-  color: #C3BEF7;
-  font-size: 1.3vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  display: flex;
+  line-height: 1.5;
+}
+
+h2, h2.section-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+h2.section-caption {
+  color: #b8e2f2;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  text-align: left;
+  width: 50%;
+  margin-left: 16px;
+}
+
+#problem h2, #myrole h2 {
+  margin-left: 0px;
+}
+
+#problem {
+  margin-right: 48px;
 }
 
 hr {
@@ -194,7 +222,7 @@ strong {
 }
 
 .role-responsive {
-  width: 30%;
+  width: 40%;
   height: auto;
 }
 
@@ -208,11 +236,11 @@ strong {
   font-size: 1.3vw;
 }
 
-#userflow, #crazy8, #solsketch, #story, #proto-screens {
+#userflow, #story, #proto-screens {
   text-align: center;
 }
 
-#userflow img, #crazy8 img, #solsketch img, #story img, #proto-screens img {
+#userflow img, #story img, #proto-screens img {
   display: inline-block;
 }
 
@@ -220,9 +248,19 @@ strong {
   font-size: 1vw;
 }
 
-.userflow-responsive, .brainstorm-responsive, .solsketch-responsive, .storyboard-responsive, .proto-responsive {
+.userflow-responsive, .storyboard-responsive, .proto-responsive {
   width: 100%;
   height: auto;
+}
+
+.proto-responsive {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#crazy8 img, #solsketch img {
+  width: 500px;
+  height: 380px;
 }
 
 .screen {
