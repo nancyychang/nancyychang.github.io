@@ -1,5 +1,6 @@
 body {
   display: block;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Tablet Landscape */
@@ -72,12 +73,14 @@ body {
 
 .title {
   font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  margin-left: 256px;
+  color: #b8e2f2;
+  margin-left: 12vw;
+  letter-spacing: 0.3em;
+  margin-bottom: 4vw;
 }
 
-.title p {
-  font-family: 'Roboto', sans-serif;
+.title-caption {
+  color: #aaaaaa;
 }
 
 #banner {
@@ -86,6 +89,77 @@ body {
 
 #banner img {
   display: inline-block;
+}
+
+.banner-responsive {
+  width: 60%;
+  height: auto;
+}
+
+.section {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  display: flex;
+  line-height: 1.5;
+}
+
+h2, h2.section-caption {
+  font-family: 'Montserrat', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+h2.section-caption {
+  color: #b8e2f2;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  text-align: left;
+  width: 50%;
+  margin-left: 16px;
+}
+
+#problem h2, #solution h2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.role-responsive {
+  width: 100%;
+  height: auto;
+}
+
+#myrole-pic img {
+  border-radius: 50%;
+}
+
+#myrole {
+  width: 150%;
+  margin-top: 5vw;
+  margin-left: 3vw;
+}
+
+#wireframe-video, #prototype-video, #iterate-video {
+  text-align: center;
+}
+
+video {
+  display: inline-block;
+
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mockup {
+  margin-bottom: 48px;
 }
 
 #blurb {
@@ -159,38 +233,20 @@ hr {
   color: #3AAFA9;
 }
 
-#intro strong {
-  font-family: 'Montserrat', sans-serif;
-  color: #9BD16A;
-}
-
 #problem h1, #solution h1, #myrole h1, #research h1, #brainstorm h1, #wireframe h1, #usertest h1, #prototype h1, #iterate h1, #usertest2 h1, #nextsteps h1, #finalwords h1 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #3AAFA9;
 }
 
-#problem strong, #solution strong, #myrole strong, #research strong, #brainstorm strong, #wireframe strong, #usertest strong, #usertest2 strong, .text strong, #finalwords strong {
-  color: #9BD16A;
-  font-family: 'Montserrat', sans-serif;
-}
-
-#myrole {
-  text-align: center;
+strong {
+  color: #3AAFA9;
 }
 
 #role-body {
   display: inline-block;
   /* width: 550px; */
   text-align: left;
-}
-
-#myrole-pic img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin-right: 64px;
 }
 
 #research h2, #brainstorm h2 {
@@ -221,9 +277,15 @@ hr {
   display: inline-block;
 }
 
+.lofi, .proto, .hifi {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .caption {
   font-size: 12px;
   color: #333333;
+  text-align: center;
 }
 
 #findings img {
@@ -274,10 +336,6 @@ hr {
 
 #wireframe, #iterate, #prototype {
   text-align: center;
-}
-
-video {
-  display: inline-block;
 }
 
 .progress-iters, .pact-screens, .onboard-screens, .nav-iters, .search-screens, .nudge-iters, .mult-screens {
