@@ -223,8 +223,8 @@ hr {
   font-size: 2.3vw;
 }
 
-#research strong, #infoarch strong, #wireframe strong, .text strong, #finalwords strong {
-  color: #6F8CFF;
+strong {
+  color: #FF8B6F;
   font-family: 'Montserrat', sans-serif;
 }
 
