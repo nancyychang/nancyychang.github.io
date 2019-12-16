@@ -1,8 +1,8 @@
 function scrollWin() {
-  window.scrollBy(0, 550);
+  window.scrollBy(0, 800);
 }
 
-var words = [' designer', ' programmer', ' fitness enthusiast', ' animal lover'];
+var words = [' designer', ' programmer', 'constant learner', ' fitness enthusiast', ' animal lover'];
 
 var i = 0;  // the index of the current item to show
 
