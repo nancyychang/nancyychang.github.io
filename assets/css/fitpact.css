@@ -410,6 +410,18 @@ hr {
   height: auto;
 }
 
+#prototype-link {
+  text-align: center;
+}
+
+#prototype-link a {
+  color: #979797;
+}
+
+#prototype-link a:hover {
+  color: #b8e2f2;
+}
+
 .findings-responsive {
   width: 75%;
   height: auto;
