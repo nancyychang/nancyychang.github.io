@@ -2,17 +2,6 @@ body {
   display: block;
 }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
-}
-
 .top-header {
   position: fixed;
   background-color: #FFFFFF;
@@ -285,4 +274,82 @@ button:hover {
 
 .midnight {
   color: #2c3e50;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .top-header {
+    float: left;
+    width: 375px;
+  }
+
+  #logo {
+    margin: 8px;
+  }
+
+  #logo img {
+    width: 12px;
+    height: auto;
+  }
+
+  #name {
+    font-size: 24px;
+  }
+
+  #title {
+    padding-top: 12px;
+    padding-left: 12px;
+    font-size: 12px;
+  }
+
+  .navbar {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .about-me {
+    font-size: 24px;
+  }
+
+  .about-me {
+    width: 375px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    margin-top: 96px;
+  }
+
+  .about-me img {
+    width: 125px;
+  }
+
+  .about-me #right {
+    margin-left: 4px;
+    margin-right: 36px;
+    margin-top: 8px;
+    font-size: 18px;
+    width: 200px;
+  }
+
+  .about-me #right #word {
+    font-size: 18px;
+  }
+
+  .about-me p {
+    font-size: 12px;
+  }
+
+  button {
+    display: none;
+  }
+
+  .item img {
+    width: 350px;
+    margin: 8px;
+  }
 }
