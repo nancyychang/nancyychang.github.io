@@ -522,6 +522,7 @@ strong {
   text-align: center;
   padding-left: 8px;
   padding-right: 8px;
+  margin-bottom: 12px;
 }
 
 .progress-row {
@@ -592,4 +593,138 @@ iframe {
   font-family: 'Montserrat', sans-serif;
   font-size: 1vw;
   margin-bottom: 2.3vw;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .top-header {
+    float: left;
+    width: 375px;
+  }
+
+  #logo {
+    margin: 8px;
+  }
+
+  #logo img {
+    width: 12px;
+    height: auto;
+  }
+
+  #name {
+    font-size: 24px;
+  }
+
+  .title {
+    margin-left: 8px;
+  }
+
+  .navbar {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .section, .section-caption {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+
+  .section-caption p {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .stat-responsive {
+    width: 75%;
+    height: auto;
+  }
+
+  .role-responsive {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+  }
+
+  #myrole {
+    width: 50%;
+    margin-top: 5vw;
+    margin-left: 8px;
+  }
+
+  .empathy-responsive {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .persona-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .sketch-heading {
+    width: 25%;
+    margin-right: 16px;
+  }
+
+  .sketch-responsive {
+    width: 40%;
+    height: auto;
+    margin: 16px;
+  }
+
+  .pact-responsive {
+    border-radius: 10px;
+  }
+
+  .nav-responsive3 {
+    border-radius: 10px;
+  }
+
+  .onboard-responsive1, .onboard-responsive2 {
+    border-radius: 10px;
+  }
+
+  .search-responsive {
+    border-radius: 10px;
+  }
+
+  .mult-responsive {
+    border-radius: 10px;
+  }
+
+  .findings-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottomnav a {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  #myBtn {
+    bottom: 28px; /* Place the button at the bottom of the page */
+    padding: 4px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    margin-bottom: 12px;
+    margin-right: 12px;
+  }
+
+  .sig {
+    font-size: 8px;
+  }
 }
