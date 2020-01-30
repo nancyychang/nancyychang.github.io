@@ -119,22 +119,49 @@ button:hover {
   /* width: 50%; */
 }
 
+#fb-item {
+  background-color: #dcd0ff;
+  width: 550px;
+  height: 390px;
+  margin:16px;
+
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+#fb-gif {
+  width: auto;
+  height: 350px;
+
+  display: block;
+
+  padding-left: 33%;
+  padding-top: 4%;
+
+  /* border-radius: 30px; */
+}
+
 .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  /* width: 550px;
-  height: 334px; */
-  margin-left: 16px;
+  /* width: 550px; */
+  /* height: 334px; */
+  margin: 16px;
   opacity: 0;
   transition: .5s ease;
   background-color: #333333;
   /* border-radius: 25px; */
 }
 
-.item:hover .overlay {
+#fb-item .overlay {
+  margin: 0px;
+}
+
+.item:hover .overlay, #fb-item:hover .overlay {
   opacity: 0.9;
 }
 
