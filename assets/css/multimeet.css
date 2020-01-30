@@ -3,15 +3,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}
-}
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+.top-header {
+  position: fixed;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 #logo, #name, .navbar {
@@ -75,6 +73,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #b8e2f2;
   margin-left: 12vw;
+  margin-top: 144px;
   letter-spacing: 0.3em;
   margin-bottom: 4vw;
 }
@@ -421,4 +420,85 @@ iframe {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   margin-bottom: 64px;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .top-header {
+    float: left;
+    width: 375px;
+  }
+
+  #logo {
+    margin: 8px;
+  }
+
+  #logo img {
+    width: 12px;
+    height: auto;
+  }
+
+  #name {
+    font-size: 24px;
+  }
+
+  .title {
+    margin-left: 8px;
+  }
+
+  .navbar {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .section, .section-caption {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+
+  .section-caption p {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .role-responsive {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+  }
+
+  #myrole {
+    width: 50%;
+    margin-top: 5vw;
+    margin-left: 8px;
+  }
+
+  .bottomnav a {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  #myBtn {
+    bottom: 28px; /* Place the button at the bottom of the page */
+    padding: 4px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    margin-bottom: 12px;
+    margin-right: 12px;
+  }
+
+  .sig {
+    font-size: 8px;
+  }
 }

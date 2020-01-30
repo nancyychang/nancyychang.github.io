@@ -1,6 +1,5 @@
 body {
   display: block;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .top-header {
@@ -91,47 +90,49 @@ body {
 }
 
 .banner-responsive {
-  width: 60%;
+  width: 75%;
   height: auto;
 }
 
-.section {
+.igstoryq-responsive {
+  width: 20%;
+  height: auto;
+}
+
+.userflow-responsive {
+  width: 75%;
+  height: auto;
+}
+
+.ideation-responsive {
+  width: 50%;
+  height: auto;
+}
+
+.solution-responsive {
+  width: 75%;
+  height: auto;
+}
+
+/* iframe {
+  width: 100%;
+  height: auto;
+} */
+
+p, ul, ol {
   font-family: 'Montserrat', sans-serif;
   margin-left: 12vw;
   margin-right: 12vw;
-  display: flex;
   line-height: 1.5;
 }
 
-h2, h2.section-caption {
+h2 {
   font-family: 'Montserrat', sans-serif;
   color: #aaaaaa;
   letter-spacing: 0.3em;
   text-align: left;
   margin-left: 12vw;
   margin-right: 12vw;
-}
-
-h2.section-caption {
-  color: #b8e2f2;
-}
-
-.left {
-  width: 50%;
-}
-
-.right {
-  text-align: left;
-  width: 50%;
-  margin-left: 16px;
-}
-
-#problem h2, #myrole h2 {
-  margin-left: 0px;
-}
-
-#problem {
-  margin-right: 48px;
 }
 
 hr {
@@ -142,105 +143,25 @@ hr {
   margin-bottom: 4.6vw;
 }
 
-.body {
-  display: inline-block;
-}
-
-.body h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #A038FF;
-  font-size: 2.3vw;
-}
-
-.body h2 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
+strong {
   color: #333333;
-  font-size: 2vw;
-}
-
-#research h1, #brainstorm h1, #storyboard h1, #prototype h1, #usertest h1 {
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #A038FF;
-  font-size: 2.3vw;
-}
-
-#usertest h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  font-size: 2vw;
-}
-
-#research h4, #brainstorm h4, #usertest h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: #C3BEF7;
-  font-size: 1.3vw;
-}
-
-#approach h1 {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #333333;
-  font-size: 2.3vw;
-}
-
-#overview a:link, a:visited {
-  background-color: white;
-  color: #333333;
-  text-decoration: none;
-}
-
-#overview a:hover {
-  color: #979797;
-}
-
-#prototype-video {
-  text-align: center;
-}
-
-video {
-  display: inline-block;
-
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#userflow, #story, #proto-screens {
-  text-align: center;
-}
-
-#userflow img, #story img, #proto-screens img {
-  display: inline-block;
-}
-
-#userflow-caption {
-  font-size: 1vw;
-}
-
-.userflow-responsive, .storyboard-responsive, .proto-responsive {
-  width: 100%;
-  height: auto;
-}
-
-.proto-responsive {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#filled {
-  margin-top: 217px;
-}
-
-.screen {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .caption {
   font-size: 1vw;
-  color: #333333;
+  color: #AAAAAA;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+#igstoryq, #userflow-img, #ideation-img, #solution-img, #prototype-video {
+  text-align: center;
+}
+
+#igstoryq img, #userflow-img img, #ideation-img img, #solution-img img, iframe {
+  display: inline-block;
 }
 
 #myBtn {
@@ -329,32 +250,14 @@ video {
     padding: 12px 30px;
   }
 
-  .section, .section-caption {
-    margin-left: 8px;
-    margin-right: 8px;
-    font-size: 12px;
-  }
-
-  .section-caption p {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-
   h2 {
     margin-left: 8px;
     margin-right: 8px;
   }
 
-  .role-responsive {
-    margin-top: 8px;
+  .banner-responsive {
     width: 100%;
     height: auto;
-  }
-
-  #myrole {
-    width: 50%;
-    margin-top: 5vw;
-    margin-left: 8px;
   }
 
   .bottomnav a {
