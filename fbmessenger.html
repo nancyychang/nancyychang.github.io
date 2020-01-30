@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>nancychang</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/fbmessenger.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <div class="top-header">
+      <div id="logo">
+        <a href="index.html">
+          <img src="assets/img/logo.png" alt="personal logo" height="48">
+        </a>
+      </div>
+
+      <div id="name">
+        <a href="index.html">NANCY CHANG</a>
+        <br>
+        <div id="title">
+          UX/Product Designer
+        </div>
+      </div>
+
+      <div class="navbar">
+        <a class="active" href="index.html">Work</a>
+        <a href="forfun.html">For Fun</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+
+    <div class="title">
+      <h1>FACEBOOK MESSENGER CASE STUDY</h1>
+      <div class="title-caption">
+        NEW FEATURE DESIGN - PINNED MESSAGES
+      </div>
+    </div>
+
+    <div id="banner">
+      <img src="assets/img/solution.png" class="banner-responsive">
+    </div>
+
+    <div id="intro">
+      <p>
+        For the <a href="https://www.studentswho.design/" target="_blank">Students Who Design</a>
+        online product design course application, applicants were given a design
+        exercise to improve an aspect of Facebook messenger.
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="user-research">
+      <h2>USER RESEARCH</h2>
+      <p>
+        In order to start tackling the prompt of improving Facebook messenger,
+        I took to Instagram stories to ask a question to my followers (I made
+        the assumption that users of Instagram most likely also used Facebook
+        messenger):
+      </p>
+      <div id="igstoryq">
+        <img src="assets/img/igstoryq.jpeg" alt="Instagram Story Question" class="igstoryq-responsive">
+      </div>
+      <p>
+        After receiving responses for this question, I realized that the responses
+        I received were more user-proposed solutions rather than the raw description
+        of the problems they were encountering.
+      </p>
+      <ul>
+        <li>Pinned messages</li>
+        <li>Customized reactions</li>
+        <li>Threads</li>
+        <li>Shortcuts</li>
+        <li>Better searchability</li>
+        <li>Tiered chats</li>
+      </ul>
+      <p>
+        Looking back, I should have phrased my question better by asking what
+        problems people faced when using Facebook messenger rather than what they
+        would improve. So, I backtracked and asked the people who responded what
+        problem they were thinking of when they proposed their solution.
+      </p>
+      <p>
+        <strong>The problem that most people described no matter what solution they proposed
+        was that it is hard to find a message they want to view again if many messages
+        have been sent after it.</strong> They would either have to scroll for a long time or
+        search many potential keywords and click through the search results to see
+        if they find what they're looking for. Many referenced Slack's ability to
+        pin messages. (The context in which Slack is used, though, is usually for
+        work or for a large organization, so I wanted to somehow incorporate a version
+        of pinned messages on Facebook messenger without taking away from the casual
+        feel of chatting with friends.)
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="people-problem">
+      <h2>PEOPLE PROBLEM</h2>
+      <p>
+        Here is the problem stated again in the people problem format.
+        <br>
+        When someone sends a message with important information, I want to be able
+        to easily find it again later, so I can remind myself of what it said.
+        But I can’t because:
+        <ol>
+          <li>I might have to scroll very far back, which would take a long time,
+            and I might miss it while skimming.</li>
+          <li>I don't remember what the message said, so I don't know what keywords to search.</li>
+        </ol>
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="user-flow">
+      <h2>USER FLOW</h2>
+      <div id="userflow-img">
+        <img src="assets/img/userflow.png" alt="User Flow" class="userflow-responsive">
+        <div class="caption">
+          Current user flow for finding a message that was sent in Facebook messenger
+        </div>
+      </div>
+      <p>
+        Pain Points:
+        <ul>
+          <li>It is easy for messages to get lost when people are sending a lot
+            of messages in the chat</li>
+          <li>An inconvenient and indirect workaround is needed if you want to
+            make sure you remember a message that was sent</li>
+          <li>There is no one straightforward solution to save a message</li>
+          <li>Scrolling can take a long time and is annoying</li>
+          <li>Using the “search conversation” feature could require a lot of
+            guessing if you don’t remember what was said in the message (which
+            you probably don’t; that’s why you’re looking for it)</li>
+          <li>Because they can’t find the message they’re looking for, people may
+            ask the same questions over and over again</li>
+        </ul>
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="analysis">
+      <h2>ANALYSIS</h2>
+      <p>
+        After talking to people who responded to my Instagram story question, I
+        found that many of them were very enthusiastic about improving the ability
+        to search and find messages in a chat. They were pretty satisfied with
+        the rest of messenger, and the problem of not being able to easily find
+        a message isn’t so bad that it made them stop using messenger altogether,
+        but it would definitely be a big nice-to-have. Many people applauded how
+        Slack is designed and how you’re able to pin messages in Slack, and they
+        had many examples of when it would have been nice to be able to pin a
+        message while they were using messenger:
+        <ul>
+          <li>Someone's address</li>
+          <li>Meeting time and location</li>
+          <li>Login credentials of a shared streaming service</li>
+          <li>Links to spreadsheets and documents related to travel planning</li>
+          <li>Announcements if using group chat for a team</li>
+          <li>Information that could help for an assignement for a class they are all in</li>
+        </ul>
+      </p>
+    </div>
+
+    <hr>
+
+    <div id="ideation">
+      <h2>IDEATION</h2>
+      <p>
+        Pinning a message seemed to be the most logical way to save a message to
+        view again later, so I brainstormed some ideas for how this feature could
+        be implemented.
+      </p>
+      <div id="ideation-img">
+        <img src="assets/img/ideation.jpeg" alt="Brainstorming Ideas With Post-It Notes" class="ideation-responsive">
+      </div>
+      <ul>
+        <li>Pinned messages would stay persistent at the top of the chat and always
+          visible kind of like how a reminder will stay at the top of the chat until
+          it is over or deleted (this idea was eventually discarded because if there
+          are more than one pinned message, the top of the chat could become cluttered
+          and cover the contents of the actual chat)</li>
+        <li>Pinned messages can be saved and found in a separate tab under the
+          settings/more info section of a chat</li>
+        <li>Clicking on a pinned message would bring you to the point in the conversation
+          when the message was sent so you can gain more context about the message</li>
+        <li>All members of the chat can view pinned messages and who pinned them
+          but only the person who pinned a message should be able to unpin it</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div id="solution">
+      <h2>SOLUTION</h2>
+      <div id="solution-img">
+        <img src="assets/img/solution.png" alt="Proposed Solution User Flow" class="solution-responsive">
+        <div class="caption">
+          1. User navigates to project group chat → 2. Someone messages when and
+          where to meet → 3. Someone pins the message so it's not forgotten →
+          4. Navigate to chat settings → 5. Click on pinned messages tab to view
+          all pinned messages → 6. Click on pin emoji button to unpin a message
+          when it's not needed anymore → 7. Click unpin in the popup modal to confirm
+           → 8. Message shows that it's not pinned anymore
+        </div>
+      </div>
+      <p>
+        My solution tries to incorporate Facebook messenger’s current UI so that
+        it doesn’t feel unfamiliar to the user. The example I show in the user
+        flow above is of a group chat where the members are deciding on a time
+        and place to meet and work on a project because that was the example
+        brought up the most while I was interviewing users. In order to pin a
+        message, you would have to long press on the message the same way you
+        would if you want to react to it. A pin emoji would show up as a button
+        next to the reaction emojis and reply button. You would then click on the
+        name of the group chat to find a tab named “Pinned Messages” under “Options”.
+        Here you would be able to see all pinned messages in the chat or switch
+        to the “pinned by you” tab to only see messages pinned by you. Before you
+        can unpin a message, a popup modal would ask you to confirm similar to
+        when you try to leave a chat. I feel like this new pin feature wouldn’t
+        be hard to find because people already know how to react to messages, and
+        they would discover it the next time they try to do that. Long pressing
+        a message in order to pin it is also how it is done in Slack, and since
+        many people who suggested pinning also mentioned Slack, this would be a
+        very familiar interaction. If Facebook ever adds this feature to messenger,
+        I believe it would be very positively received, but of course, my next
+        steps would be to test my prototype in order to confirm any assumptions I made.
+        <br>
+        Below is a video of a rough prototype of how the pinning feature would work:
+      </p>
+
+      <div id="prototype-video">
+        <iframe src="https://player.vimeo.com/video/384296359" width="350" height="700" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="caption">
+          <p>
+            <a href="https://vimeo.com/384296359">FB Messenger Pinned Messages</a>
+            from <a href="https://vimeo.com/user107417466">Nancy Chang</a> on
+            <a href="https://vimeo.com">Vimeo</a>.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+    <p>
+      <strong>Time taken: ~6 hours</strong>
+    </p>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="bottomnav">
+      <a href="fitpact.html">FitPact</a>
+      <a href="citypups.html">CityPups</a>
+      <a href="multimeet.html">MultiMeet</a>
+      <a href="treasuredata.html">Treasure Data</a>
+      <a class="active" href="fbmessenger.html">FB Messenger</a>
+      <a href="dailyui.html">Daily UI</a>
+    </div>
+
+    <div class="sig">
+      Designed and coded by Nancy Chang :)
+    </div>
+
+  </body>
+
+  <script src="assets/js/script.js"></script>
+
+</html>
