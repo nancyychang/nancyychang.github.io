@@ -377,8 +377,22 @@ button:hover {
     display: none;
   }
 
-  .item img {
+  .item img, #fb-item {
     width: 350px;
+    height: auto;
     margin: 8px;
+  }
+
+  #fb-item {
+    height: 250px;
+  }
+
+  #fb-gif {
+    width: auto;
+    height: 225px;
+
+    padding-left: 34%;
+    padding-top: 4%;
+
   }
 }
