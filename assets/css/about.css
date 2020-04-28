@@ -9,22 +9,34 @@ body {
   overflow: hidden;
   top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
 }
 
-#logo, #name, .navbar {
+#logo, #name, #title, .navbar {
   display: inline-flex;
 }
 
+#logo_name {
+  float: left;
+  margin-left: 48px;
+  margin-top: 48px;
+  width: 250px;
+}
+
 #logo {
-  margin: 24px;
+  float: left;
+}
+
+#name_title {
+  float: right;
 }
 
 #name {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 24px;
+  float: left;
 }
 
 #name a:link, a:visited {
@@ -38,35 +50,39 @@ body {
 }
 
 #title {
-  padding-top: 32px;
-  padding-left: 32px;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  float: left;
+  clear: left;
 }
 
 .navbar {
-  margin-top: 32px;
-  margin-right: 32px;
+  margin-top: 48px;
+  margin-right: 48px;
   float: right;
 }
 
 .navbar a {
-  color: #333333;
+  color: #979797;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .navbar a:hover {
-  color: #979797;
+  color: #333333;
+}
+
+.navbar a.active:hover {
+  color: #333333;
 }
 
 .navbar a.active {
   font-weight: bold;
-  text-decoration: underline;
+  color: #333333;
 }
 
 #bio-title {
@@ -79,6 +95,7 @@ body {
 
 div#bio {
   display: flex;
+  margin-top: 10%;
   margin-left: 64px;
   margin-right: 64px;
   font-family: 'Montserrat', sans-serif;
@@ -95,6 +112,8 @@ div#bio img {
   transform: rotate(90deg);
   margin-top: 96px;
   margin-bottom: 96px;
+  /* margin-right: 96px; */
+  height: 448px;
 
   position: relative;
   top: 11%;
