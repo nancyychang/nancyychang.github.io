@@ -1,0 +1,408 @@
+body {
+  display: block;
+}
+
+.top-header {
+  position: fixed;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#logo, #name, #title, .navbar {
+  display: inline-flex;
+}
+
+#logo_name {
+  float: left;
+  margin-left: 48px;
+  margin-top: 48px;
+  width: 250px;
+}
+
+#logo {
+  float: left;
+}
+
+#name_title {
+  float: right;
+}
+
+#name {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  float: left;
+}
+
+#name a:link, a:visited {
+  background-color: white;
+  color: #333333;
+  text-decoration: none;
+}
+
+#name a:hover {
+  color: #b8e2f2;
+}
+
+#title {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  float: left;
+  clear: left;
+}
+
+.navbar {
+  margin-top: 48px;
+  margin-right: 48px;
+  float: right;
+}
+
+.navbar a {
+  color: #979797;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #333333;
+}
+
+.navbar a.active:hover {
+  color: #333333;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: #333333;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #b8e2f2;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 144px;
+  letter-spacing: 0.3em;
+  margin-bottom: 4vw;
+}
+
+.title-caption {
+  color: #aaaaaa;
+}
+
+.title p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1vw;
+}
+
+.title h1 {
+  font-size: 2.5vw;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 80%;
+  display: inline-block;
+}
+
+#wireframes {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+#wireframes img {
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 16px;
+}
+
+.mockups img {
+  width: 20%;
+  margin: 16px;
+}
+
+#gifs {
+  text-align: center;
+}
+
+#gifs img {
+  display: inline-block;
+  margin: 32px;
+  border-radius: 45px;
+  width: 20%;
+}
+
+.section {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  display: flex;
+  line-height: 1.5;
+
+  align-items: flex-start;
+}
+
+#statistic strong {
+  font-size: 24px;
+  color: #0096D1;
+  text-align: center;
+}
+
+#citation {
+  font-size: 12px;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #aaaaaa;
+  letter-spacing: 0.3em;
+  text-align: left;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+#problem h2, #solution h2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#solution {
+  margin-top: 0px;
+  padding-left: 16px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  text-align: left;
+  width: 50%;
+  margin-left: 16px;
+}
+
+hr {
+  align: center;
+  size: 4px;
+  width: 50%;
+  margin-top: 4.6vw;
+  margin-bottom: 4.6vw;
+}
+
+.role-responsive {
+  width: 100%;
+  height: auto;
+}
+
+#myrole-pic img {
+  border-radius: 50%;
+}
+
+#myrole {
+  width: 150%;
+  margin-top: 5vw;
+  margin-left: 3vw;
+}
+
+strong {
+  color: #6B2574;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1vw; /* Place the button at the bottom of the page */
+  right: 2vw; /* Place the button 2vw from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #b8e2f2; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 1vw; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2vw; /* Increase font size */
+  margin-bottom: 2.3vw;
+  margin-right: 2.3vw;
+}
+
+#myBtn:hover {
+  background-color: #EF434D;
+}
+
+.bottomnav {
+  text-align: center;
+  margin-top: 2.3vw;
+}
+
+.bottomnav a {
+  color: #979797;
+  display: inline-block;
+  padding: 1vw 1.5vw;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6vw;
+}
+
+.bottomnav a:hover {
+  color: #333333;
+}
+
+.bottomnav a.active {
+  color: #E25B45;
+}
+
+.sig {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1vw;
+  margin-bottom: 2.3vw;
+}
+
+@media only screen and (max-width: 375px) {
+
+  .top-header {
+    float: left;
+    width: 375px;
+  }
+
+  #logo {
+    margin: 8px;
+  }
+
+  #logo img {
+    width: 12px;
+    height: auto;
+  }
+
+  #name {
+    font-size: 24px;
+  }
+
+  .title {
+    margin-left: 8px;
+  }
+
+  .navbar {
+    margin-top: 0px;
+    float: none;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .section, .section-caption {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+  }
+
+  .section-caption p {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  h2 {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .stat-responsive {
+    width: 75%;
+    height: auto;
+  }
+
+  .role-responsive {
+    margin-top: 8px;
+    width: 100%;
+    height: auto;
+  }
+
+  #myrole {
+    width: 50%;
+    margin-top: 5vw;
+    margin-left: 8px;
+  }
+
+  .empathy-responsive {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .persona-responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .sketch-heading {
+    width: 25%;
+    margin-right: 16px;
+  }
+
+  .sketch-responsive {
+    width: 40%;
+    height: auto;
+    margin: 16px;
+  }
+
+  .pact-responsive {
+    border-radius: 10px;
+  }
+
+  .nav-responsive3 {
+    border-radius: 10px;
+  }
+
+  .onboard-responsive1, .onboard-responsive2 {
+    border-radius: 10px;
+  }
+
+  .search-responsive {
+    border-radius: 10px;
+  }
+
+  .mult-responsive {
+    border-radius: 10px;
+  }
+
+  .findings-responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottomnav a {
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  #myBtn {
+    bottom: 28px; /* Place the button at the bottom of the page */
+    padding: 4px; /* Some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    margin-bottom: 12px;
+    margin-right: 12px;
+  }
+
+  .sig {
+    font-size: 8px;
+  }
+}
